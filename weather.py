@@ -93,8 +93,8 @@ def get_time():
 
 # The result
 def get_weather_prediction():
-    # Lappeenranta coordinates
-    lat, lon = 61.0583, 28.1887
+    # Lahti campus coordinates
+    lat, lon = 61.00639, 25.66350
 
     forecast = get_weather_forecast(lat, lon)
     walk_time = get_time()
