@@ -894,8 +894,8 @@ def select_destination_manually() -> str:
     print("\n" + "="*60)
     print("🏫 SELECT DESTINATION")
     print("="*60)
-    print("\n1. Mukkulankatu 19 (LAB Mukkulankatu Campus)")
-    print("2. Niemenkatu 73 (LAB Niemenkatu Campus)")
+    print("\n1. Mukkulankatu 19 (Mukkulankatu Campus)")
+    print("2. Niemenkatu 73 (Niemenkatu Campus)")
     
     while True:
         choice = input("\nSelect destination (1/2): ").strip()
