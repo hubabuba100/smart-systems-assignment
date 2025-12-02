@@ -1160,10 +1160,6 @@ def main():
                 print(f"   Expected precipitation: {prec:.1f} mm")
         except Exception as e:
             print(f"\n⚠️  Could not fetch weather data: {e}")
-    
-    print("\n" + "="*60)
-    print("Have a great lecture! 📚")
-    print("="*60)
 
 if __name__ == "__main__":
     main()
