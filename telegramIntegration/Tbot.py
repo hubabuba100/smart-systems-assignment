@@ -8,6 +8,7 @@ import random
 import asyncio
 
 from telegram import Update, ReplyKeyboardMarkup
+from telegram.helpers import escape_markdown
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 
 
@@ -207,6 +208,12 @@ async def show_schedule(update: Update, context: ContextTypes.DEFAULT_TYPE):
         course = extract_course_name(event)
         room = extract_room_info(event)
         start = event["start"].strftime("%H:%M")
+        
+        # Escape special characters for Markdown
+        course = escape_markdown(course, version=1)
+        if room:
+            room = escape_markdown(room, version=1)
+
         message += f"{start} - {course}"
         if room:
             message += f"\n    {room}"
@@ -362,8 +369,11 @@ async def settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     config = get_user_config(user_id)
     
+    home_address = config.get('home_address', 'Not set')
+    home_address = escape_markdown(home_address, version=1)
+    
     message = "*Current Settings:*\n\n"
-    message += f"Home: {config.get('home_address', 'Not set')}\n"
+    message += f"Home: {home_address}\n"
     message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
     
     keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
@@ -395,8 +405,11 @@ async def handle_change_timeedit(update: Update, context: ContextTypes.DEFAULT_T
         user_id = update.effective_user.id
         config = get_user_config(user_id)
         
+        home_address = config.get('home_address', 'Not set')
+        home_address = escape_markdown(home_address, version=1)
+        
         message = "*Current Settings:*\n\n"
-        message += f"Home: {config.get('home_address', 'Not set')}\n"
+        message += f"Home: {home_address}\n"
         message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
         
         keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
@@ -444,8 +457,11 @@ async def handle_change_address(update: Update, context: ContextTypes.DEFAULT_TY
     if text == "Back":
         config = get_user_config(user_id)
         
+        home_address = config.get('home_address', 'Not set')
+        home_address = escape_markdown(home_address, version=1)
+        
         message = "*Current Settings:*\n\n"
-        message += f"Home: {config.get('home_address', 'Not set')}\n"
+        message += f"Home: {home_address}\n"
         message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
         
         keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
@@ -523,6 +539,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def check_and_send_notifications(app: Application):
     # Background task to check schedule and send notifications
+    sent_notifications = set()
     while True:
         await asyncio.sleep(60)  # Check every minute
         
@@ -564,6 +581,10 @@ async def check_and_send_notifications(app: Application):
                 
                 # FIRST LECTURE - 25-35 minutes before
                 if 25 <= minutes_until <= 35:
+                    notif_key = f"{user_id}_{course}_{event_start}_early"
+                    if notif_key in sent_notifications:
+                        continue
+
                     destination_campus, _ = learn_and_determine_campus(event, course_locations)
                     
                     if destination_campus:
@@ -599,9 +620,14 @@ async def check_and_send_notifications(app: Application):
                                     weather_details=weather_details
                                 )
                                 await app.bot.send_message(user_id, message)
+                                sent_notifications.add(notif_key)
                 
                 # OTHER LECTURES - 14-16 minutes before
                 elif 14 <= minutes_until <= 16:
+                    notif_key = f"{user_id}_{course}_{event_start}_soon"
+                    if notif_key in sent_notifications:
+                        continue
+
                     template = random.choice(LECTURE_SOON_TEMPLATES)
                     message = template.format(
                         course=course,
@@ -610,6 +636,7 @@ async def check_and_send_notifications(app: Application):
                         minutes=int(minutes_until)
                     )
                     await app.bot.send_message(user_id, message)
+                    sent_notifications.add(notif_key)
 
 
 def main():
