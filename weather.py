@@ -91,6 +91,7 @@ def get_time():
     # Placeholder for user-specific walk/lecture time
     return datetime.now()
 
+
 # The result
 def get_weather_prediction():
     # Lahti campus coordinates
@@ -102,7 +103,4 @@ def get_weather_prediction():
     result = check_rain_at_time(walk_time, forecast)
     message = interpret_weather(result)
 
-    print(message)
-
-# have to delete it later
-get_weather_prediction()
+    return message
