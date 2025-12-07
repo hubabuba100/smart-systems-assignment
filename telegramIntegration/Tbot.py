@@ -1,6 +1,5 @@
 import os
 import json
-import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
@@ -37,20 +36,24 @@ USER_DATA_DIR.mkdir(exist_ok=True)
 SETUP_TIMEEDIT, SETUP_ADDRESS = range(2)
 ASKING_BUS_DESTINATION = 100
 ASKING_CAMPUS_FOR_BUS = 101
+CHANGE_TIMEEDIT = 102
+CHANGE_ADDRESS = 103
 
 LECTURE_SOON_TEMPLATES = [
-    "{course} starts in {minutes} minutes. Location: {room}.",
-    "Heads up! {course} in {minutes} min. Room: {room}.",
-    "{course} begins at {time}. Room {room}.",
-    "Your {course} is starting in {minutes}. Location: {room}.",
-    "{course} in {minutes} minutes at {room}.",
+    "Heads up! {course} in {minutes} mins at {room}. Stop procrastinating!",
+    "Yo! {course} starts in {minutes} mins. Get to {room}!",
+    "Your {course} is basically happening now ({minutes} mins). Room: {room}",
+    "Time flies! {course} in {minutes} minutes at {room}. Move it!",
+    "Wake up! {course} starts at {time} in {room} ({minutes} mins to go)",
+    "Incoming! {course} at {time}. That's {minutes} mins. Location: {room}",
 ]
 
 LEAVING_NOW_TEMPLATES = [
-    "Your first lecture starts in {minutes} min. Take bus {bus_line} at {bus_depart}. {weather_action}. {weather_details}",
-    "First lecture in {minutes} minutes! Catch bus {bus_line} departing {bus_depart}. {weather_action} - {weather_details}",
-    "Time to head out! Bus {bus_line} leaves at {bus_depart}. {weather_action}, {weather_details}",
-    "Your first lecture is coming up in {minutes} min. Take bus {bus_line} at {bus_depart}. {weather_action}",
+    "Yo, wake up! First class in {minutes} mins. Catch bus {bus_line} at {bus_depart}. {weather_action} btw - {weather_details}",
+    "Let's go! Bus {bus_line} leaves {bus_depart}. You got {minutes} mins. {weather_action}, {weather_details}",
+    "Rise and shine! Bus {bus_line} at {bus_depart} (in {minutes} mins). {weather_action} - {weather_details}",
+    "MOVE! First lecture in {minutes} mins. Grab the {bus_line} at {bus_depart}. {weather_action}, {weather_details}",
+    "Heads up! Bus {bus_line} at {bus_depart}. Your class is in {minutes} mins. {weather_action}!",
 ]
 
 AFTER_LAST_TEMPLATE = "Your last lecture ends at {end_time}. Take bus {bus_line} heading {direction} at {dep_time}. {weather_action} - {weather_details}"
@@ -247,17 +250,16 @@ async def handle_bus_destination(update: Update, context: ContextTypes.DEFAULT_T
         await update.message.reply_text("Please select Mukkulankatu or Niemenkatu")
         return ASKING_BUS_DESTINATION
     
-    # Plan route to destination
+    # Plan route to destination - search for buses departing now or soon
     dest = CAMPUSES[destination_campus]
     now = datetime.now()
-    arrival_time = now + timedelta(minutes=30)
     
     api_key = get_api_key()
     itineraries = plan_route(
         config["home_lat"], config["home_lon"],
         dest["lat"], dest["lon"],
-        arrival_time,
-        api_key,
+        depart_after=now,
+        api_key=api_key,
         num_results=1
     )
     
@@ -364,10 +366,118 @@ async def settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message += f"Home: {config.get('home_address', 'Not set')}\n"
     message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
     
-    keyboard = [["Reset Settings"], ["Back"]]
+    keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     
     await update.message.reply_text(message, reply_markup=reply_markup, parse_mode="Markdown")
+
+
+async def change_timeedit(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Start changing TimeEdit link
+    await update.message.reply_text(
+        "Please paste your new TimeEdit iCal subscription link.\n\n"
+        "How to get it:\n"
+        "1. Go to your TimeEdit schedule\n"
+        "2. Click 'Subscribe' (top right)\n"
+        "3. Select 'Current week + 12 months'\n"
+        "4. Copy the iCal link (starts with https://cloud.timeedit.net/...)"
+    )
+    return CHANGE_TIMEEDIT
+
+
+async def handle_change_timeedit(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Handle new TimeEdit URL input
+    user_id = update.effective_user.id
+    text = update.message.text.strip()
+    
+    # Check for Back button
+    if text == "Back":
+        user_id = update.effective_user.id
+        config = get_user_config(user_id)
+        
+        message = "*Current Settings:*\n\n"
+        message += f"Home: {config.get('home_address', 'Not set')}\n"
+        message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
+        
+        keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
+        reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+        
+        await update.message.reply_text(message, reply_markup=reply_markup, parse_mode="Markdown")
+        return ConversationHandler.END
+    
+    # Validate URL format
+    if "timeedit" not in text.lower() and ".ics" not in text.lower():
+        await update.message.reply_text("That doesn't look like a TimeEdit link. Please try again.")
+        return CHANGE_TIMEEDIT
+    
+    # Save new URL
+    config = get_user_config(user_id)
+    config["timeedit_url"] = text
+    save_user_config(user_id, config)
+    
+    keyboard = [["My Schedule", "Find Bus Now"], ["Settings", "Help"]]
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+    
+    await update.message.reply_text(
+        "✅ TimeEdit link updated!",
+        reply_markup=reply_markup
+    )
+    
+    return ConversationHandler.END
+
+
+async def change_address(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Start changing address
+    await update.message.reply_text(
+        "Please paste your new home address in Lahti.\n"
+        "Example: Vapaudenkatu 20, Lahti"
+    )
+    return CHANGE_ADDRESS
+
+
+async def handle_change_address(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Handle new address input
+    user_id = update.effective_user.id
+    text = update.message.text.strip()
+    
+    # Check for Back button
+    if text == "Back":
+        config = get_user_config(user_id)
+        
+        message = "*Current Settings:*\n\n"
+        message += f"Home: {config.get('home_address', 'Not set')}\n"
+        message += f"TimeEdit: {'Configured' if config.get('timeedit_url') else 'Not set'}\n"
+        
+        keyboard = [["Change Address"], ["Change TimeEdit"], ["Back"]]
+        reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+        
+        await update.message.reply_text(message, reply_markup=reply_markup, parse_mode="Markdown")
+        return ConversationHandler.END
+    
+    address = text
+    if "lahti" not in address.lower():
+        address += ", Lahti"
+    
+    # Geocode the address
+    api_key = get_api_key()
+    coords = geocode_address(address, api_key)
+    
+    # Save config
+    config = get_user_config(user_id)
+    config["home_address"] = address
+    config["home_lat"] = coords[0]
+    config["home_lon"] = coords[1]
+    save_user_config(user_id, config)
+    
+    keyboard = [["My Schedule", "Find Bus Now"], ["Settings", "Help"]]
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+    
+    await update.message.reply_text(
+        f"✅ Address updated to: {address}",
+        reply_markup=reply_markup
+    )
+    
+    return ConversationHandler.END
 
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -395,26 +505,14 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if text == "My Schedule":
         await show_schedule(update, context)
     elif text == "Settings":
-        await settings(update, context)
+        return await settings(update, context)
     elif text == "Help":
         await help_command(update, context)
-    elif text == "Reset Settings":
-        user_id = update.effective_user.id
-        USER_DATA_DIR = SCRIPT_DIR / "users"
-        config_file = USER_DATA_DIR / f"{user_id}_config.json"
-        if config_file.exists():
-            config_file.unlink()
-        keyboard = [["OK"]]
-        reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
-        await update.message.reply_text("Settings reset. Use /start to reconfigure.", reply_markup=reply_markup)
+    elif text == "Change TimeEdit":
+        return await change_timeedit(update, context)
+    elif text == "Change Address":
+        return await change_address(update, context)
     elif text == "Back":
-        keyboard = [
-            ["My Schedule", "Find Bus Now"],
-            ["Settings", "Help"]
-        ]
-        reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
-        await update.message.reply_text("Menu:", reply_markup=reply_markup)
-    elif text == "OK":
         keyboard = [
             ["My Schedule", "Find Bus Now"],
             ["Settings", "Help"]
@@ -523,12 +621,17 @@ def main():
         entry_points=[
             CommandHandler("start", start),
             MessageHandler(filters.TEXT & filters.Regex("^Find Bus Now$"), find_bus_now),
+            MessageHandler(filters.TEXT & filters.Regex("^Settings$"), settings),
+            MessageHandler(filters.TEXT & filters.Regex("^Change TimeEdit$"), change_timeedit),
+            MessageHandler(filters.TEXT & filters.Regex("^Change Address$"), change_address),
         ],
         states={
             SETUP_TIMEEDIT: [MessageHandler(filters.TEXT & ~filters.COMMAND, setup_timeedit)],
             SETUP_ADDRESS: [MessageHandler(filters.TEXT & ~filters.COMMAND, setup_address)],
             ASKING_BUS_DESTINATION: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_campus_selection)],
             ASKING_CAMPUS_FOR_BUS: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_bus_destination)],
+            CHANGE_TIMEEDIT: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_change_timeedit)],
+            CHANGE_ADDRESS: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_change_address)],
         },
         fallbacks=[CommandHandler("start", start)],
     )

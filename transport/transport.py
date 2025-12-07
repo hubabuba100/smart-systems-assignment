@@ -559,9 +559,10 @@ def plan_route(
     origin_lon: float,
     dest_lat: float,
     dest_lon: float,
-    arrive_by: datetime,
-    api_key: str,
-    num_results: int = 5
+    arrive_by: datetime = None,
+    api_key: str = None,
+    num_results: int = 5,
+    depart_after: datetime = None
 ) -> Optional[List[Dict]]:
     """
     Plan a route using Digitransit Routing API (Waltti).
@@ -571,11 +572,26 @@ def plan_route(
     - Prefer buses over walking (high walk reluctance)
     - Prefer fewer transfers (high board cost)
     - Allow the API to find the best combination
+    
+    Args:
+        depart_after: Find buses departing after this time (preferred for "find bus now")
+        arrive_by: Find routes arriving by this time (for schedule-based planning)
     """
     
     # Make datetime timezone-aware for proper API formatting
-    arrive_by_tz = arrive_by.replace(tzinfo=FINLAND_TZ)
-    arrive_time = arrive_by_tz.isoformat()
+    if depart_after:
+        time_param = depart_after.replace(tzinfo=FINLAND_TZ)
+        time_str = time_param.isoformat()
+        datetime_clause = f'dateTime: {{earliestDeparture: "{time_str}"}}'
+    elif arrive_by:
+        time_param = arrive_by.replace(tzinfo=FINLAND_TZ)
+        time_str = time_param.isoformat()
+        datetime_clause = f'dateTime: {{latestArrival: "{time_str}"}}'
+    else:
+        # Default: use current time as earliest departure
+        now = datetime.now().replace(tzinfo=FINLAND_TZ)
+        time_str = now.isoformat()
+        datetime_clause = f'dateTime: {{earliestDeparture: "{time_str}"}}'
     
     # GraphQL query with preferences to favor transit over walking
     # - walkReluctance: Higher value = prefer transit over walking (default 2.0, we use 3.0)
@@ -583,77 +599,77 @@ def plan_route(
     # - walkSpeed: Average walking speed 1.33 m/s (about 4.8 km/h)
     # Let the Waltti API determine the best routes - no hardcoded routing
     query = """
-    {
+    {{
       planConnection(
-        origin: {location: {coordinate: {latitude: %f, longitude: %f}}}
-        destination: {location: {coordinate: {latitude: %f, longitude: %f}}}
-        first: %d
-        dateTime: {latestArrival: "%s"}
-        modes: {
-          transit: {transit: [{mode: BUS}]}
-        }
-        preferences: {
-          street: {
-            walk: {
+        origin: {{location: {{coordinate: {{latitude: {}, longitude: {}}}}}}}
+        destination: {{location: {{coordinate: {{latitude: {}, longitude: {}}}}}}}
+        first: {}
+        {}
+        modes: {{
+          transit: {{transit: [{{mode: BUS}}]}}
+        }}
+        preferences: {{
+          street: {{
+            walk: {{
               speed: 1.33
               reluctance: 3.0
               boardCost: 300
-            }
-          }
-          transit: {
-            transfer: {
+            }}
+          }}
+          transit: {{
+            transfer: {{
               slack: "2M"
-            }
-          }
-        }
-      ) {
-        edges {
-          node {
+            }}
+          }}
+        }}
+      ) {{
+        edges {{
+          node {{
             start
             end
             duration
             walkDistance
             numberOfTransfers
-            legs {
+            legs {{
               mode
-              from {
+              from {{
                 name
-                stop {
+                stop {{
                   name
                   code
-                }
-              }
-              to {
+                }}
+              }}
+              to {{
                 name
-                stop {
+                stop {{
                   name
                   code
-                }
-              }
-              start {
+                }}
+              }}
+              start {{
                 scheduledTime
-                estimated {
+                estimated {{
                   time
-                }
-              }
-              end {
+                }}
+              }}
+              end {{
                 scheduledTime
-                estimated {
+                estimated {{
                   time
-                }
-              }
-              trip {
+                }}
+              }}
+              trip {{
                 routeShortName
                 tripHeadsign
-              }
+              }}
               distance
               duration
-            }
-          }
-        }
-      }
-    }
-    """ % (origin_lat, origin_lon, dest_lat, dest_lon, num_results, arrive_time)
+            }}
+          }}
+        }}
+      }}
+    }}
+    """.format(origin_lat, origin_lon, dest_lat, dest_lon, num_results, datetime_clause)
     
     headers = {
         "Content-Type": "application/graphql",
