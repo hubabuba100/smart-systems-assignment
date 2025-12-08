@@ -693,7 +693,7 @@ async def check_and_send_notifications(app: Application):
     # Background task to check schedule and send notifications
     sent_notifications = set()
     while True:
-        await asyncio.sleep(60)  # Check every minute
+        await asyncio.sleep(300)  # Check every 5 minutes
         
         # Get all user configs
         user_files = list(USER_DATA_DIR.glob("*_config.json"))
