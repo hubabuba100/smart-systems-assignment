@@ -39,6 +39,7 @@ ASKING_BUS_DESTINATION = 100
 ASKING_CAMPUS_FOR_BUS = 101
 CHANGE_TIMEEDIT = 102
 CHANGE_ADDRESS = 103
+ASKING_DIRECTION = 104
 
 LECTURE_SOON_TEMPLATES = [
     "Heads up! {course} in {minutes} mins at {room}. Stop procrastinating!",
@@ -54,7 +55,7 @@ LEAVING_NOW_TEMPLATES = [
     "Let's go! Bus {bus_line} leaves {bus_depart}. You got {minutes} mins. {weather_action}, {weather_details}",
     "Rise and shine! Bus {bus_line} at {bus_depart} (in {minutes} mins). {weather_action} - {weather_details}",
     "MOVE! First lecture in {minutes} mins. Grab the {bus_line} at {bus_depart}. {weather_action}, {weather_details}",
-    "Heads up! Bus {bus_line} at {bus_depart}. Your class is in {minutes} mins. {weather_action}!",
+    "Heads up! Bus {bus_line} at {bus_depart}. Your class is in {minutes} mins. {weather_action}, {weather_details}",
 ]
 
 AFTER_LAST_TEMPLATE = "Your last lecture ends at {end_time}. Take bus {bus_line} heading {direction} at {dep_time}. {weather_action} - {weather_details}"
@@ -94,6 +95,118 @@ def get_weather_info(lat: float, lon: float, departure_time: datetime) -> tuple:
         details = "Clear weather"
     
     return action, details
+
+
+def format_route_message(itinerary: dict, config: dict, departure_dt: datetime) -> str:
+    """Format a route itinerary into a detailed message similar to transport.py"""
+    start_time_str = format_time(itinerary.get("start", ""))
+    end_time_str = format_time(itinerary.get("end", ""))
+    
+    # Get weather info
+    weather_action, weather_details = get_weather_info(
+        config["home_lat"], config["home_lon"], departure_dt
+    )
+    
+    # Collect all bus legs
+    bus_legs = [leg for leg in itinerary.get("legs", []) if leg.get("mode") == "BUS"]
+    
+    if len(bus_legs) == 0:
+        return f"🚶 Walk to destination\n🎯 Arrives: {end_time_str}"
+    
+    message = ""
+    
+    if len(bus_legs) == 1:
+        # Direct bus - simple format
+        leg = bus_legs[0]
+        trip = leg.get("trip", {})
+        route = trip.get("routeShortName", "?")
+        headsign = trip.get("tripHeadsign", "")
+        from_stop = leg.get("from", {}).get("stop", {})
+        to_stop = leg.get("to", {}).get("stop", {})
+        stop_name = from_stop.get("name", "") or leg.get("from", {}).get("name", "")
+        exit_stop = to_stop.get("name", "") or leg.get("to", {}).get("name", "")
+        bus_time = format_time(leg.get("start", {}).get("scheduledTime", ""))
+        
+        message = f"✅ DIRECT route available!\n\n"
+        message += f"🚌 Take bus {route} → {headsign}\n"
+        message += f"⏰ Departs: {bus_time}\n"
+        message += f"📍 Board at: {stop_name}\n"
+        message += f"🏁 Exit at: {exit_stop}\n"
+        message += f"🎯 Arrives: {end_time_str}\n\n"
+        message += f"⏰ Leave home by: {start_time_str}\n\n"
+        message += f"🌦️ {weather_action}, {weather_details}"
+    else:
+        # Multiple buses - show transfers
+        transfers = len(bus_legs) - 1
+        message = f"⚠️ Best route requires {transfers} transfer(s):\n\n"
+        
+        for i, leg in enumerate(bus_legs):
+            trip = leg.get("trip", {})
+            route = trip.get("routeShortName", "?")
+            headsign = trip.get("tripHeadsign", "")
+            from_stop = leg.get("from", {}).get("stop", {})
+            to_stop = leg.get("to", {}).get("stop", {})
+            stop_name = from_stop.get("name", "") or leg.get("from", {}).get("name", "")
+            exit_stop = to_stop.get("name", "") or leg.get("to", {}).get("name", "")
+            bus_time = format_time(leg.get("start", {}).get("scheduledTime", ""))
+            
+            if i == 0:
+                message += f"1️⃣ First bus:\n"
+            else:
+                message += f"\n{i+1}️⃣ Transfer to:\n"
+            
+            message += f"   🚌 Line {route} → {headsign}\n"
+            message += f"   ⏰ Departs: {bus_time}\n"
+            message += f"   📍 Board: {stop_name}\n"
+            message += f"   🚏 Exit: {exit_stop}\n"
+        
+        message += f"\n🎯 Arrives: {end_time_str}\n"
+        message += f"⏰ Leave home by: {start_time_str}\n\n"
+        message += f"🌦️ {weather_action}, {weather_details}"
+    
+    return message
+
+
+def format_notification_message(itinerary: dict, minutes_until: int, config: dict, departure_dt: datetime) -> str:
+    """Format a notification message for first lecture with detailed bus info"""
+    weather_action, weather_details = get_weather_info(
+        config["home_lat"], config["home_lon"], departure_dt
+    )
+    
+    bus_legs = [leg for leg in itinerary.get("legs", []) if leg.get("mode") == "BUS"]
+    
+    if not bus_legs:
+        return f"⏰ First class in {int(minutes_until)} mins. Time to leave!"
+    
+    if len(bus_legs) == 1:
+        # Single bus
+        leg = bus_legs[0]
+        route = leg.get("trip", {}).get("routeShortName", "?")
+        headsign = leg.get("trip", {}).get("tripHeadsign", "")
+        stop_name = leg.get("from", {}).get("stop", {}).get("name", "") or leg.get("from", {}).get("name", "")
+        bus_time = format_time(leg.get("start", {}).get("scheduledTime", ""))
+        
+        message = f"⏰ First class in {int(minutes_until)} mins!\n\n"
+        message += f"🚌 Take bus {route} → {headsign}\n"
+        message += f"📍 Board at: {stop_name}\n"
+        message += f"⏰ Departs: {bus_time}\n\n"
+        message += f"🌦️ {weather_action}, {weather_details}"
+    else:
+        # Multiple buses
+        first_leg = bus_legs[0]
+        route = first_leg.get("trip", {}).get("routeShortName", "?")
+        headsign = first_leg.get("trip", {}).get("tripHeadsign", "")
+        stop_name = first_leg.get("from", {}).get("stop", {}).get("name", "") or first_leg.get("from", {}).get("name", "")
+        bus_time = format_time(first_leg.get("start", {}).get("scheduledTime", ""))
+        
+        message = f"⏰ First class in {int(minutes_until)} mins!\n"
+        message += f"⚠️ Requires {len(bus_legs)-1} transfer(s)\n\n"
+        message += f"🚌 First bus: {route} → {headsign}\n"
+        message += f"📍 Board at: {stop_name}\n"
+        message += f"⏰ Departs: {bus_time}\n\n"
+        message += f"🌦️ {weather_action}, {weather_details}"
+    
+    return message
 
 
 
@@ -232,12 +345,36 @@ async def find_bus_now(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     keyboard = [
+        ["To Campus"],
+        ["From Campus"]
+    ]
+    reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+    await update.message.reply_text(
+        "Where are you going?",
+        reply_markup=reply_markup
+    )
+    return ASKING_DIRECTION
+
+
+async def handle_direction_choice(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Handle direction selection (to/from campus)
+    text = update.message.text.strip()
+    
+    if text == "To Campus":
+        context.user_data["direction"] = "to_campus"
+    elif text == "From Campus":
+        context.user_data["direction"] = "from_campus"
+    else:
+        await update.message.reply_text("Please select To Campus or From Campus")
+        return ASKING_DIRECTION
+    
+    keyboard = [
         ["Mukkulankatu (M19)"],
         ["Niemenkatu (NIE73)"]
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     await update.message.reply_text(
-        "Which campus do you want to go to?",
+        "Which campus?",
         reply_markup=reply_markup
     )
     return ASKING_CAMPUS_FOR_BUS
@@ -255,50 +392,62 @@ async def handle_bus_destination(update: Update, context: ContextTypes.DEFAULT_T
         destination_campus = "niemenkatu"
     else:
         await update.message.reply_text("Please select Mukkulankatu or Niemenkatu")
-        return ASKING_BUS_DESTINATION
+        return ASKING_CAMPUS_FOR_BUS
     
-    # Plan route to destination - search for buses departing now or soon
+    # Get direction from context
+    direction = context.user_data.get("direction", "to_campus")
     dest = CAMPUSES[destination_campus]
     now = datetime.now()
-    
     api_key = get_api_key()
-    itineraries = plan_route(
-        config["home_lat"], config["home_lon"],
-        dest["lat"], dest["lon"],
-        depart_after=now,
-        api_key=api_key,
-        num_results=1
-    )
+    
+    # Plan route based on direction
+    if direction == "to_campus":
+        # From home to campus
+        itineraries = plan_route(
+            config["home_lat"], config["home_lon"],
+            dest["lat"], dest["lon"],
+            depart_after=now,
+            api_key=api_key,
+            num_results=1
+        )
+    else:
+        # From campus to home
+        itineraries = plan_route(
+            dest["lat"], dest["lon"],
+            config["home_lat"], config["home_lon"],
+            depart_after=now,
+            api_key=api_key,
+            num_results=1
+        )
     
     if not itineraries:
-        await update.message.reply_text(f"No buses available to reach {dest['name']}.")
-        return
+        keyboard = [["My Schedule", "Find Bus Now"], ["Settings"]]
+        reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+        destination_name = "home" if direction == "from_campus" else dest['name']
+        await update.message.reply_text(
+            f"No buses available to reach {destination_name}.",
+            reply_markup=reply_markup
+        )
+        return ConversationHandler.END
     
     best = itineraries[0]
-    depart_time = format_time(best.get("start", ""))
     
-    # Get weather
+    # Get departure time for weather
     departure_dt = datetime.fromisoformat(best.get("start", "").replace("Z", "+00:00"))
     if departure_dt.tzinfo:
         departure_dt = departure_dt.replace(tzinfo=None)
-    weather_action, weather_details = get_weather_info(config["home_lat"], config["home_lon"], departure_dt)
     
-    bus_legs = [leg for leg in best.get("legs", []) if leg.get("mode") == "BUS"]
-    
-    if bus_legs:
-        leg = bus_legs[0]
-        route = leg.get("trip", {}).get("routeShortName", "?")
-        headsign = leg.get("trip", {}).get("tripHeadsign", "")
-        from_stop = leg.get("from", {}).get("stop", {}).get("name", "")
-        
-        message = (
-            f"Next bus: {route} → {headsign}\n"
-            f"From: {from_stop}\n"
-            f"Departs: {depart_time}\n"
-            f"{weather_action}, {weather_details}"
-        )
+    # Use appropriate coordinates for weather (departure location)
+    if direction == "to_campus":
+        weather_lat, weather_lon = config["home_lat"], config["home_lon"]
     else:
-        message = f"Walk to {dest['name']}"
+        weather_lat, weather_lon = dest["lat"], dest["lon"]
+    
+    # Create a temporary config for weather lookup
+    temp_config = {"home_lat": weather_lat, "home_lon": weather_lon}
+    
+    # Format detailed message
+    message = format_route_message(best, temp_config, departure_dt)
     
     keyboard = [["My Schedule", "Find Bus Now"], ["Settings"]]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
@@ -307,6 +456,7 @@ async def handle_bus_destination(update: Update, context: ContextTypes.DEFAULT_T
     return ConversationHandler.END
 
 
+# Update handle_campus_selection function (line 310)
 async def handle_campus_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Handle campus selection when destination unknown
     user_id = update.effective_user.id
@@ -341,27 +491,29 @@ async def handle_campus_selection(update: Update, context: ContextTypes.DEFAULT_
         dest["lat"], dest["lon"],
         arrival_time,
         api_key,
-        num_results=3
+        num_results=1
     )
     
-    best = itineraries[0]
-    depart_time = format_time(best.get("start", ""))
+    if not itineraries:
+        await update.message.reply_text("No routes found.")
+        return ConversationHandler.END
     
-    bus_legs = [leg for leg in best.get("legs", []) if leg.get("mode") == "BUS"]
-    if bus_legs:
-        leg = bus_legs[0]
-        route = leg.get("trip", {}).get("routeShortName", "?")
-        headsign = leg.get("trip", {}).get("tripHeadsign", "")
-        from_stop = leg.get("from", {}).get("stop", {}).get("name", "")
-        message = f"Take bus {route} → {headsign}\nFrom: {from_stop}\nDeparts: {depart_time}"
-    else:
-        message = "Walk to destination"
+    best = itineraries[0]
+    
+    # Get departure time for weather
+    departure_dt = datetime.fromisoformat(best.get("start", "").replace("Z", "+00:00"))
+    if departure_dt.tzinfo:
+        departure_dt = departure_dt.replace(tzinfo=None)
+    
+    # Format detailed message
+    message = format_route_message(best, config, departure_dt)
     
     keyboard = [["My Schedule", "Find Bus Now"], ["Settings"]]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     await update.message.reply_text(message, reply_markup=reply_markup)
     
     return ConversationHandler.END
+
 
 
 async def settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -612,13 +764,7 @@ async def check_and_send_notifications(app: Application):
                             if bus_legs:
                                 route = bus_legs[0].get("trip", {}).get("routeShortName", "?")
                                 template = random.choice(LEAVING_NOW_TEMPLATES)
-                                message = template.format(
-                                    minutes=int(minutes_until),
-                                    bus_line=route,
-                                    bus_depart=depart_time,
-                                    weather_action=weather_action,
-                                    weather_details=weather_details
-                                )
+                                message = format_notification_message(best, minutes_until, config, departure_dt)
                                 await app.bot.send_message(user_id, message)
                                 sent_notifications.add(notif_key)
                 
@@ -655,6 +801,7 @@ def main():
         states={
             SETUP_TIMEEDIT: [MessageHandler(filters.TEXT & ~filters.COMMAND, setup_timeedit)],
             SETUP_ADDRESS: [MessageHandler(filters.TEXT & ~filters.COMMAND, setup_address)],
+            ASKING_DIRECTION: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_direction_choice)],
             ASKING_BUS_DESTINATION: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_campus_selection)],
             ASKING_CAMPUS_FOR_BUS: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_bus_destination)],
             CHANGE_TIMEEDIT: [MessageHandler(filters.TEXT & ~filters.COMMAND, handle_change_timeedit)],

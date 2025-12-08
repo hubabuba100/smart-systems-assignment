@@ -1,143 +1,7 @@
 {
   "url": "https://cloud.timeedit.net/lut-saimia/web/lutstudent/ri669f215YY541QYX5Q9075XZ705Qw4XX5uZ777y5552275195Q2ZdQ61m41QZ8tn5676841BZnF9k21Zl4563292Qntwo751o2891297BB27E4BED82D9A3C1CA8.ics",
-  "last_fetch": "2025-12-07T00:59:56.141808",
+  "last_fetch": "2025-12-08T08:58:43.704484",
   "events": [
-    {
-      "start": "2025-12-01T08:00:00",
-      "end": "2025-12-01T10:00:00",
-      "uid": "525169-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_D247 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525169"
-    },
-    {
-      "start": "2025-12-02T08:00:00",
-      "end": "2025-12-02T10:00:00",
-      "uid": "525181-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, NIE73_B102 Teorialuokka\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525181"
-    },
-    {
-      "start": "2025-12-02T10:00:00",
-      "end": "2025-12-02T12:00:00",
-      "uid": "526628-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, M19_A109 Oppimistila\\, HDD5030 1 LAHTI Luentoja kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 526628"
-    },
-    {
-      "start": "2025-12-02T12:00:00",
-      "end": "2025-12-02T14:00:00",
-      "uid": "515634-1372700886-0@timeedit.com",
-      "summary": "CT60A4800 Fundamentals of smart systems\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, CT60A4800 1 LAHTI Luentoja kaikille\\, Siemon Dominik\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 515634"
-    },
-    {
-      "start": "2025-12-02T12:00:00",
-      "end": "2025-12-02T14:00:00",
-      "uid": "525094-1372700886-0@timeedit.com",
-      "summary": "CT30A3204 Advanced Web Applications\\, NIE73_B208 PC-tietokoneluokka\\, CT30A3204 1 LAHTI Harjoituksia kaikille",
-      "location": "",
-      "description": "ID 525094"
-    },
-    {
-      "start": "2025-12-03T08:00:00",
-      "end": "2025-12-03T10:00:00",
-      "uid": "525346-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_A109 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525346"
-    },
-    {
-      "start": "2025-12-03T10:00:00",
-      "end": "2025-12-03T12:00:00",
-      "uid": "525113-1372700886-0@timeedit.com",
-      "summary": "CT30A3204 Advanced Web Applications\\, NIE73_B208 PC-tietokoneluokka\\, CT30A3204 1 LAHTI Harjoituksia kaikille",
-      "location": "",
-      "description": "ID 525113"
-    },
-    {
-      "start": "2025-12-03T10:00:00",
-      "end": "2025-12-03T12:00:00",
-      "uid": "526614-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, M19_A109 Oppimistila\\, HDD5030 1 LAHTI Luentoja kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 526614"
-    },
-    {
-      "start": "2025-12-03T16:00:00",
-      "end": "2025-12-03T18:00:00",
-      "uid": "515543-1372700886-0@timeedit.com",
-      "summary": "CT60A4800 Fundamentals of smart systems\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, CT60A4800 1 LAHTI Harjoituksia kaikille\\, Siemon Dominik\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 515543"
-    },
-    {
-      "start": "2025-12-04T08:00:00",
-      "end": "2025-12-04T10:00:00",
-      "uid": "525175-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_D247 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525175"
-    },
-    {
-      "start": "2025-12-04T14:00:00",
-      "end": "2025-12-04T16:00:00",
-      "uid": "524837-1372700886-0@timeedit.com",
-      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
-      "location": "",
-      "description": "ID 524837"
-    },
-    {
-      "start": "2025-12-05T08:00:00",
-      "end": "2025-12-05T10:00:00",
-      "uid": "525347-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_A109 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525347"
-    },
-    {
-      "start": "2025-12-05T10:00:00",
-      "end": "2025-12-05T12:00:00",
-      "uid": "525155-1372700886-0@timeedit.com",
-      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 Virtuaaliharjoitukset\\, lut-tr-TiKTite3",
-      "location": "",
-      "description": "ID 525155"
-    },
-    {
-      "start": "2025-12-05T10:00:00",
-      "end": "2025-12-05T12:00:00",
-      "uid": "526641-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, M19_C236 Oppimistila (tvt-labra)\\, M19_C237 Oppimistila (tvt-labra)\\, HDD5030 1 LAHTI Harjoituksia kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 526641"
-    },
-    {
-      "start": "2025-12-05T12:00:00",
-      "end": "2025-12-05T14:00:00",
-      "uid": "525348-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_D247 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
-      "location": "",
-      "description": "ID 525348"
-    },
-    {
-      "start": "2025-12-05T14:00:00",
-      "end": "2025-12-05T16:00:00",
-      "uid": "524843-1372700886-0@timeedit.com",
-      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
-      "location": "",
-      "description": "ID 524843"
-    },
-    {
-      "start": "2025-12-06T00:00:00",
-      "end": "2025-12-06T00:00:00",
-      "uid": "457193-1372700886-0@timeedit.com",
-      "summary": "Itsenäisyyspäivä",
-      "location": "",
-      "description": "06:00 - 19:00\\nID 457193"
-    },
     {
       "start": "2025-12-08T08:00:00",
       "end": "2025-12-08T10:00:00",
@@ -665,6 +529,14 @@
       "summary": "Pyhäinpäivä",
       "location": "",
       "description": "06:00 - 20:00\\nID 527593"
+    },
+    {
+      "start": "2026-12-06T00:00:00",
+      "end": "2026-12-06T00:00:00",
+      "uid": "527594-1372700886-0@timeedit.com",
+      "summary": "Itsenäisyyspäivä",
+      "location": "",
+      "description": "06:00 - 21:00\\nID 527594"
     }
   ]
 }
