@@ -266,6 +266,9 @@ def extract_course_name(event: Dict) -> str:
     # Extract a normalized course name from event for tracking purposes.
     summary = event.get("summary", "")
     
+    # Clean up the summary - remove any backslashes (escape characters), trailing whitespace, newlines
+    summary = summary.replace("\\", "").rstrip(" \n\r")
+    
     # TimeEdit often has format: "Course Name, Room"
     # Try to extract just the course name part
     parts = summary.split(",")
@@ -282,6 +285,10 @@ def extract_room_info(event: Dict) -> str:
     # TimeEdit puts room info in LOCATION or sometimes in SUMMARY
     location = event.get("location", "")
     summary = event.get("summary", "")
+    
+    # Clean up summary and location - remove backslashes (escape characters)
+    summary = summary.replace("\\", "").rstrip(" \n\r")
+    location = location.replace("\\", "").rstrip(" \n\r")
     
     # First check for M19 or NIE73 patterns in summary (TimeEdit format)
     # Pattern like: M19_xxx or NIE73_xxx
@@ -301,13 +308,15 @@ def extract_room_info(event: Dict) -> str:
     if location:
         return location.strip()
     
-    # Try to find room in summary (often after comma)
-    parts = summary.split(",")
-    for part in parts:
-        part = part.strip()
-        # Look for room-like patterns
-        if re.match(r'^[A-Z]{1,3}\d', part) or "room" in part.lower() or "sali" in part.lower() or "oppimistila" in part.lower():
-            return part
+    # Try to find room in summary (often after comma or semicolon)
+    for separator in [",", ";", "|"]:
+        if separator in summary:
+            parts = summary.split(separator)
+            if len(parts) > 1:
+                room = parts[-1].strip()
+                # Look for room-like patterns
+                if room and (re.match(r'^[A-Z]{1,3}\d', room) or "room" in room.lower() or "sali" in room.lower() or "oppimistila" in room.lower()):
+                    return room
     
     return ""
 

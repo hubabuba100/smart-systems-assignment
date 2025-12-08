@@ -1,100 +1,404 @@
 {
-  "url": "https://cloud.timeedit.net/lut-saimia/web/lutpublic/ri6Y7X53Q1wZQ5Qf7702X6X5y5Y5nZX22w0u74ZQY689975575252XXY22245576585X3X525172676735538229X277X22275X8535395ZnQ6946.ics",
-  "last_fetch": "2025-12-08T09:12:36.493532",
+  "url": "https://cloud.timeedit.net/lut-saimia/web/lutstudent/ri669f215YY541QYX5Q9075XZ705Qw4XX55Z777y555227519552XXX359905772175X5X651296670765577550XX78298975X36155522874746X8875750220X66636577X722X556X1807775X6X74774XX5YX380786X15456W451575087299775103XXX0245463795X5565745XX60278X761X878355678XX3086355551081X74646558584X3553496151335XX7X4120X55954X75775X148W84XXY77165584505X4X630751063665518330X469X79075X07355569077555X0055855836X97765987X494X554X6057155X4X5585660X4X45563716X6XX5899X4X175569557752055045W55X995X55669615X90778X575X995778746XX34Y9195558644X77918565303X7557901757775XX5X3789X55791X06886X4905089975733X95578X8X078508555758XX11669905913X5WX555235589926691XY485551043X04213878X378X557X7519775X7X6562695X4X85397718X5XX5092X4X13559556755660693853571XX5XX595052413145215572350W15790851538XX6X84Y9X67646578731X4550055451345XX7X1867X55703X17668X1265170917617X65966X5X177761755657XX25671595216665X6279XX1745525271665X5X9X997Y75275W961417XX587175855X175561572X1X95998616X0XX5017X1X115895565959281787565666X7XX585670586865955716656588726876667XXXX6847875175X557864YXX757853177541723596XXX684075W55X6535X47566582X85677X0X287825755258XX95679945355585X6676XXX862835671555X5X363176771735537568XX72822275X26955745944830525518W87X1X10Y30X95X855X55XX3644887512581X0XX525958931215755744351533710855636XXXX1815353285X5579625XX68987X768X196376695XX5228855551285X59077W67X05X0556967Y76688X56X3XX3550509337605555087XXX682355066005X5X665066871555525157XX77622375X11755533202715X3375550172X11615677X633X555X3520675X1X76197X361X5722Y368545X5719X6579W839257758XX67X78360475577375X9XX37994545553X351069XX5789X45556X9645445X11456X773875XXX746931557865585014X077799975X34055789X55X178489431587XX8969554093527176W6XXX8Y93X570X31996X378575X8X612979X77765745349X9586479355X9753375XX59X96990737577X5678575076976836878XXX9793X879X26747XX56W5XX11632Y51964555553508178755837XX48876174t8Z3X4Q32n91QQZ2X5286X7d53550Zu87w50n52468o1611075EQ3m6C691ABo302Eln34E3ZF8081tC1127k80A92F97D0D.ics",
+  "last_fetch": "2025-12-08T15:50:19.333433",
   "events": [
     {
       "start": "2025-12-08T08:00:00",
       "end": "2025-12-08T10:00:00",
       "uid": "525170-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, M19_D247 Oppimistila\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_D247 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 525170"
+    },
+    {
+      "start": "2025-12-08T08:00:00",
+      "end": "2025-12-08T10:00:00",
+      "uid": "521738-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3048 Finnish 4\\, 1303 Oppimistila\\, Karjunen Minna\\, Luennot 1\\, LLPRIB24S\\, LLPRHOMA24S\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 521738"
+    },
+    {
+      "start": "2025-12-08T10:00:00",
+      "end": "2025-12-08T12:00:00",
+      "uid": "504392-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3034 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 504392"
+    },
+    {
+      "start": "2025-12-08T10:00:00",
+      "end": "2025-12-08T12:00:00",
+      "uid": "506488-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3035 Finnish 4\\, 1566 Oppimistila\\, Kuisma Meri\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 506488"
+    },
+    {
+      "start": "2025-12-08T10:00:00",
+      "end": "2025-12-08T12:00:00",
+      "uid": "507533-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
+      "location": "",
+      "description": "ID 507533"
     },
     {
       "start": "2025-12-08T10:00:00",
       "end": "2025-12-08T12:00:00",
       "uid": "525362-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, M19_A116 Oppimistila\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_A116 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 525362"
+    },
+    {
+      "start": "2025-12-08T10:00:00",
+      "end": "2025-12-08T16:00:00",
+      "uid": "505731-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3002 Kauppatieteen asiantuntijaviestintä\\, 1369 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 505731"
     },
     {
       "start": "2025-12-08T12:00:00",
       "end": "2025-12-08T14:00:00",
       "uid": "526615-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, HDD5030 1 LAHTI Luentoja kaikille\\, M19_A109 Oppimistila\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, M19_A109 Oppimistila\\, HDD5030 1 LAHTI Luentoja kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 526615"
+    },
+    {
+      "start": "2025-12-08T12:00:00",
+      "end": "2025-12-08T14:00:00",
+      "uid": "506994-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3015 Svenska i arbetslivet (handel)\\, skriftlig\\, z\\, Mäkinen Satu\\, Harjoitukset 1\\, Suullinen koe\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 506994"
+    },
+    {
+      "start": "2025-12-08T12:00:00",
+      "end": "2025-12-08T16:00:00",
+      "uid": "534036-1372700886-0@timeedit.com",
+      "summary": "A330A0100 International Business Strategies\\, Yo-talo 103 Auditorio \\, A330A0100 1 LPR Seminaaritilaisuuksia\\, Teplov Roman\\, Väätänen Juha\\, lut-tr-KaMMIBE_2",
+      "location": "",
+      "description": "ID 534036"
+    },
+    {
+      "start": "2025-12-08T15:00:00",
+      "end": "2025-12-08T17:00:00",
+      "uid": "526178-1372700886-0@timeedit.com",
+      "summary": "BJ05A4010 Business Models and Market Analysis\\, BJ05A4010 1 LAHTI Luentoja kaikille\\, lut-tr-KeDSBBE_TR1",
+      "location": "",
+      "description": "ID 526178"
+    },
+    {
+      "start": "2025-12-08T16:00:00",
+      "end": "2025-12-08T18:00:00",
+      "uid": "534302-1372700886-0@timeedit.com",
+      "summary": "A330A0760 Sales Technology\\, 1314 Auditorio\\, A330A0760 1 LPR Luentoja kaikille\\, Niemi Jarkko\\, lut-tr-KaM_MIMM_DD_Skema2\\, lut-tr-KaMSMYM_1",
+      "location": "",
+      "description": "ID 534302"
+    },
+    {
+      "start": "2025-12-09T08:00:00",
+      "end": "2025-12-09T10:00:00",
+      "uid": "504414-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3037 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 504414"
+    },
+    {
+      "start": "2025-12-09T08:00:00",
+      "end": "2025-12-09T10:00:00",
+      "uid": "525182-1372700886-0@timeedit.com",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, NIE73_B102 Teorialuokka\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "location": "",
+      "description": "ID 525182"
     },
     {
       "start": "2025-12-09T10:00:00",
       "end": "2025-12-09T12:00:00",
       "uid": "526629-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, HDD5030 1 LAHTI Luentoja kaikille\\, NIE73_B247 Teorialuokka\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, NIE73_B247 Teorialuokka\\, HDD5030 1 LAHTI Luentoja kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 526629"
+    },
+    {
+      "start": "2025-12-09T10:00:00",
+      "end": "2025-12-09T16:00:00",
+      "uid": "505760-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3003 Kauppatieteen asiantuntijaviestintä\\, Verkkoluento\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 505760"
     },
     {
       "start": "2025-12-09T12:00:00",
       "end": "2025-12-09T14:00:00",
       "uid": "515635-1372700886-0@timeedit.com",
-      "summary": "CT60A4800 Fundamentals of smart systems\\, CT60A4800 1 LAHTI Luentoja kaikille\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, lut-tr-TiBScLah_DD2",
+      "summary": "CT60A4800 Fundamentals of smart systems\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, CT60A4800 1 LAHTI Luentoja kaikille\\, Siemon Dominik\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 515635"
+    },
+    {
+      "start": "2025-12-09T12:00:00",
+      "end": "2025-12-09T14:00:00",
+      "uid": "525095-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, NIE73_B208 PC-tietokoneluokka\\, CT30A3204 1 LAHTI Harjoituksia kaikille",
+      "location": "",
+      "description": "ID 525095"
+    },
+    {
+      "start": "2025-12-09T12:00:00",
+      "end": "2025-12-09T14:00:00",
+      "uid": "523182-1372700886-0@timeedit.com",
+      "summary": "A330A0900 Managing International Marketing\\, 7339 Luentosali\\, A330A0900 1 LPR Luentoja kaikille\\, Kuivalainen Olli\\, Uzhegova Maria\\, lut-tr-KaM_MIMM_DD_Skema2\\, lut-tr-KaM_MIMM_DD_Twente2\\, lut-tr-KaM_MIMM_DD_VSE2\\, lut-tr-KaMMIMM_2\\, lut-tr-KaMMIMMBusan_2",
+      "location": "",
+      "description": "ID 523182"
+    },
+    {
+      "start": "2025-12-09T12:00:00",
+      "end": "2025-12-09T14:00:00",
+      "uid": "528183-1372700886-0@timeedit.com",
+      "summary": "A330A0252 Internationalization of the Firm and Global Marketing\\, 1316 Auditorio \\, A330A0252 1 LPR Luentoja kaikille\\, Laine Igor\\, Väätänen Juha\\, lut-tr-KaM_MIMM_DD_Twente1\\, lut-tr-KaMMIBE_1\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 528183"
+    },
+    {
+      "start": "2025-12-09T12:00:00",
+      "end": "2025-12-09T14:00:00",
+      "uid": "527857-1372700886-0@timeedit.com",
+      "summary": "A210A0020 Arvopaperimarkkinoiden sääntely\\, Virtuaalinen luokka Virtual classroom\\, A210A0020 1 LPR Luentoja kaikille\\, Sjögrén Helena\\, lut-tr-KaKBSc Rahis 3\\, lut-tr-KaKBSc_2sivuopintoa Rahis 3",
+      "location": "",
+      "description": "ID 527857"
+    },
+    {
+      "start": "2025-12-09T14:00:00",
+      "end": "2025-12-09T17:00:00",
+      "uid": "528187-1372700886-0@timeedit.com",
+      "summary": "A320A8000 Strategies for Business Growth\\, 2305 Luentosali\\, A320A8000 1 LPR Luennot ja harjoitukset\\, Pynnönen Mikko\\, Treves Luke\\, lut-tr-KaMMIBE_1",
+      "location": "",
+      "description": "ID 528187"
+    },
+    {
+      "start": "2025-12-10T08:00:00",
+      "end": "2025-12-10T10:00:00",
+      "uid": "525361-1372700886-0@timeedit.com",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_A109 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "location": "",
+      "description": "ID 525361"
+    },
+    {
+      "start": "2025-12-10T10:00:00",
+      "end": "2025-12-10T12:00:00",
+      "uid": "525114-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, NIE73_B208 PC-tietokoneluokka\\, CT30A3204 1 LAHTI Harjoituksia kaikille",
+      "location": "",
+      "description": "ID 525114"
     },
     {
       "start": "2025-12-10T10:00:00",
       "end": "2025-12-10T12:00:00",
       "uid": "526642-1372700886-0@timeedit.com",
-      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, HDD5030 1 LAHTI Harjoituksia kaikille\\, M19_C236 Oppimistila (tvt-labra)\\, M19_C237 Oppimistila (tvt-labra)\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, M19_C236 Oppimistila (tvt-labra)\\, M19_C237 Oppimistila (tvt-labra)\\, HDD5030 1 LAHTI Harjoituksia kaikille\\, Zhang Shouhua\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 526642"
     },
     {
+      "start": "2025-12-10T10:00:00",
+      "end": "2025-12-10T14:00:00",
+      "uid": "523852-1372700886-0@timeedit.com",
+      "summary": "A380A0600 Creating value with Sustainability  Case Fashion Business\\, 3310 Auditorio\\, A380A0600 1 LPR Seminaaritilaisuuksia\\, Sipilä Jenni\\, Laukkanen Minttu\\, Lumme Maija\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 523852"
+    },
+    {
       "start": "2025-12-10T12:00:00",
       "end": "2025-12-10T14:00:00",
-      "uid": "524868-1372700886-0@timeedit.com",
-      "summary": "HDD4120 Overview of China (HDD)\\, HDD4120 1 LAHTI Luentoja kaikille\\, M19_D247 Oppimistila\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "uid": "507542-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, NIE73_B103 Teorialuokka\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
       "location": "",
-      "description": "ID 524868"
+      "description": "ID 507542"
     },
     {
       "start": "2025-12-10T16:00:00",
       "end": "2025-12-10T18:00:00",
       "uid": "515544-1372700886-0@timeedit.com",
-      "summary": "CT60A4800 Fundamentals of smart systems\\, CT60A4800 1 LAHTI Harjoituksia kaikille\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, lut-tr-TiBScLah_DD2",
+      "summary": "CT60A4800 Fundamentals of smart systems\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila\\, CT60A4800 1 LAHTI Harjoituksia kaikille\\, Siemon Dominik\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 515544"
     },
     {
+      "start": "2025-12-11T08:00:00",
+      "end": "2025-12-11T10:00:00",
+      "uid": "504408-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3037 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 504408"
+    },
+    {
+      "start": "2025-12-11T08:00:00",
+      "end": "2025-12-11T10:00:00",
+      "uid": "506480-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3035 Finnish 4\\, 1565 Hybriditila Kielikeskus\\, Kuisma Meri\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 506480"
+    },
+    {
+      "start": "2025-12-11T08:00:00",
+      "end": "2025-12-11T10:00:00",
+      "uid": "525176-1372700886-0@timeedit.com",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_D247 Oppimistila\\, HDD7010 1 LAHTI Harjoitusryhmä 2\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "location": "",
+      "description": "ID 525176"
+    },
+    {
+      "start": "2025-12-11T08:00:00",
+      "end": "2025-12-11T10:00:00",
+      "uid": "506995-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3015 Svenska i arbetslivet (handel)\\, skriftlig\\, z\\, Mäkinen Satu\\, Harjoitukset 1\\, Suullinen koe\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 506995"
+    },
+    {
+      "start": "2025-12-11T10:00:00",
+      "end": "2025-12-11T14:00:00",
+      "uid": "529847-1372700886-0@timeedit.com",
+      "summary": "A380A0600 Creating value with Sustainability  Case Fashion Business\\, 3310 Auditorio\\, A380A0600 1 LPR Seminaaritilaisuuksia\\, Sipilä Jenni\\, Laukkanen Minttu\\, Lumme Maija\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 529847"
+    },
+    {
       "start": "2025-12-11T12:00:00",
       "end": "2025-12-11T14:00:00",
-      "uid": "524901-1372700886-0@timeedit.com",
-      "summary": "HDD4120 Overview of China (HDD)\\, HDD4120 1 LAHTI Harjoituksia kaikille\\, M19_D247 Oppimistila\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "uid": "504401-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3034 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
       "location": "",
-      "description": "ID 524901"
+      "description": "ID 504401"
+    },
+    {
+      "start": "2025-12-11T12:00:00",
+      "end": "2025-12-11T14:00:00",
+      "uid": "550604-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, M19_A128 Oppimistila\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
+      "location": "",
+      "description": "ID 550604"
     },
     {
       "start": "2025-12-11T14:00:00",
       "end": "2025-12-11T16:00:00",
-      "uid": "524888-1372700886-0@timeedit.com",
-      "summary": "HDD4120 Overview of China (HDD)\\, HDD4120 1 LAHTI Harjoituksia kaikille\\, M19_D247 Oppimistila\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "uid": "524838-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
       "location": "",
-      "description": "ID 524888"
+      "description": "ID 524838"
+    },
+    {
+      "start": "2025-12-12T08:00:00",
+      "end": "2025-12-12T10:00:00",
+      "uid": "521737-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3048 Finnish 4\\, 1303 Oppimistila\\, Karjunen Minna\\, Luennot 1\\, LLPRIB24S\\, LLPRHOMA24S\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 521737"
+    },
+    {
+      "start": "2025-12-12T10:00:00",
+      "end": "2025-12-12T12:00:00",
+      "uid": "525156-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 Virtuaaliharjoitukset\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 525156"
+    },
+    {
+      "start": "2025-12-12T10:00:00",
+      "end": "2025-12-12T15:00:00",
+      "uid": "528177-1372700886-0@timeedit.com",
+      "summary": "A330A0252 Internationalization of the Firm and Global Marketing\\, A330A0252 1 LPR Harjoituksia kaikille\\, Laine Igor\\, Väätänen Juha\\, lut-tr-KaM_MIMM_DD_Twente1\\, lut-tr-KaMMIBE_1\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1\\, Tutorials are at room 6426.",
+      "location": "",
+      "description": "ID 528177"
     },
     {
       "start": "2025-12-12T12:00:00",
       "end": "2025-12-12T14:00:00",
       "uid": "525363-1372700886-0@timeedit.com",
-      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, M19_AUD3B Auditorio 3\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
+      "summary": "HDD7010 Basic Chinese 1 (HDD)\\, M19_AUD3B Auditorio 3\\, HDD7010 1 LAHTI Harjoitusryhmä 1\\, Jianping Han\\, lut-tr-EnBScLah_DD2\\, lut-tr-TiBScLah_DD2",
       "location": "",
       "description": "ID 525363"
+    },
+    {
+      "start": "2025-12-12T14:00:00",
+      "end": "2025-12-12T16:00:00",
+      "uid": "524844-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 524844"
+    },
+    {
+      "start": "2025-12-15T10:00:00",
+      "end": "2025-12-15T16:00:00",
+      "uid": "523003-1372700886-0@timeedit.com",
+      "summary": "A240A0090 Databases for Business Analysts\\, 3310 Auditorio\\, A240A0090 1 LPR Luentoja kaikille\\, Molinari Andrea",
+      "location": "",
+      "description": "ID 523003"
+    },
+    {
+      "start": "2025-12-15T12:00:00",
+      "end": "2025-12-15T14:00:00",
+      "uid": "520868-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, M19_AUD1B Auditorio 1\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
+      "location": "",
+      "description": "ID 520868"
+    },
+    {
+      "start": "2025-12-16T10:00:00",
+      "end": "2025-12-16T16:00:00",
+      "uid": "528941-1372700886-0@timeedit.com",
+      "summary": "A240A0090 Databases for Business Analysts\\, 3310 Auditorio\\, A240A0090 1 LPR Luentoja kaikille\\, Molinari Andrea",
+      "location": "",
+      "description": "ID 528941"
+    },
+    {
+      "start": "2025-12-16T12:00:00",
+      "end": "2025-12-16T14:00:00",
+      "uid": "550607-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, M19_A127 Oppimistila\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
+      "location": "",
+      "description": "ID 550607"
+    },
+    {
+      "start": "2025-12-17T10:00:00",
+      "end": "2025-12-17T12:00:00",
+      "uid": "520869-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3036 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Valo-Vuorela Marjaana\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25K",
+      "location": "",
+      "description": "ID 520869"
+    },
+    {
+      "start": "2025-12-17T10:00:00",
+      "end": "2025-12-17T16:00:00",
+      "uid": "528942-1372700886-0@timeedit.com",
+      "summary": "A240A0090 Databases for Business Analysts\\, 3310 Auditorio\\, A240A0090 1 LPR Luentoja kaikille\\, Molinari Andrea",
+      "location": "",
+      "description": "ID 528942"
+    },
+    {
+      "start": "2025-12-18T10:00:00",
+      "end": "2025-12-18T16:00:00",
+      "uid": "528943-1372700886-0@timeedit.com",
+      "summary": "A240A0090 Databases for Business Analysts\\, 3310 Auditorio\\, A240A0090 1 LPR Luentoja kaikille\\, Molinari Andrea",
+      "location": "",
+      "description": "ID 528943"
+    },
+    {
+      "start": "2025-12-19T16:00:00",
+      "end": "2025-12-19T20:00:00",
+      "uid": "511050-1372700886-0@timeedit.com",
+      "summary": "HDD5030 Data Structures and Algorithms (HDD)\\, LUT Tentti Lahti\\, M19_D247 Oppimistila\\, M19_D251 Oppimistila",
+      "location": "",
+      "description": "ID 511050"
     },
     {
       "start": "2025-12-25T00:00:00",
       "end": "2025-12-25T00:00:00",
       "uid": "457195-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Joulupäivä",
       "location": "",
       "description": "06:00 - 19:00\\nID 457195"
     },
@@ -102,7 +406,7 @@
       "start": "2025-12-26T00:00:00",
       "end": "2025-12-26T00:00:00",
       "uid": "457197-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Tapaninpäivä",
       "location": "",
       "description": "06:00 - 19:00\\nID 457197"
     },
@@ -110,7 +414,7 @@
       "start": "2026-01-01T00:00:00",
       "end": "2026-01-01T00:00:00",
       "uid": "527599-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Uudenvuodenpäivä",
       "location": "",
       "description": "06:00 - 19:00\\nID 527599"
     },
@@ -118,15 +422,3351 @@
       "start": "2026-01-06T00:00:00",
       "end": "2026-01-06T00:00:00",
       "uid": "527585-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Loppiainen",
       "location": "",
       "description": "06:00 - 19:00\\nID 527585"
+    },
+    {
+      "start": "2026-01-07T08:00:00",
+      "end": "2026-01-07T10:00:00",
+      "uid": "537293-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 537293"
+    },
+    {
+      "start": "2026-01-07T10:00:00",
+      "end": "2026-01-07T12:00:00",
+      "uid": "537187-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 537187"
+    },
+    {
+      "start": "2026-01-07T12:00:00",
+      "end": "2026-01-07T14:00:00",
+      "uid": "536771-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 536771"
+    },
+    {
+      "start": "2026-01-07T12:00:00",
+      "end": "2026-01-07T14:00:00",
+      "uid": "537094-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1314 Auditorio\\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 537094"
+    },
+    {
+      "start": "2026-01-07T13:00:00",
+      "end": "2026-01-07T14:00:00",
+      "uid": "562306-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562306"
+    },
+    {
+      "start": "2026-01-07T16:00:00",
+      "end": "2026-01-07T18:00:00",
+      "uid": "537036-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 537036"
+    },
+    {
+      "start": "2026-01-07T16:00:00",
+      "end": "2026-01-07T18:00:00",
+      "uid": "537037-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 537037"
+    },
+    {
+      "start": "2026-01-08T08:00:00",
+      "end": "2026-01-08T10:00:00",
+      "uid": "537294-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 537294"
+    },
+    {
+      "start": "2026-01-08T08:00:00",
+      "end": "2026-01-08T10:00:00",
+      "uid": "555541-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555541"
+    },
+    {
+      "start": "2026-01-08T08:00:00",
+      "end": "2026-01-08T10:00:00",
+      "uid": "567526-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1370 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567526"
+    },
+    {
+      "start": "2026-01-08T10:00:00",
+      "end": "2026-01-08T12:00:00",
+      "uid": "563430-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563430"
+    },
+    {
+      "start": "2026-01-08T10:00:00",
+      "end": "2026-01-08T12:00:00",
+      "uid": "566112-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1304 Oppimistila\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566112"
+    },
+    {
+      "start": "2026-01-08T10:00:00",
+      "end": "2026-01-08T13:00:00",
+      "uid": "536898-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Luentoja kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 536898"
+    },
+    {
+      "start": "2026-01-08T12:00:00",
+      "end": "2026-01-08T14:00:00",
+      "uid": "546941-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1316 Auditorio \\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546941"
+    },
+    {
+      "start": "2026-01-08T13:00:00",
+      "end": "2026-01-08T15:00:00",
+      "uid": "537051-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Luentoja kaikille\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 537051"
+    },
+    {
+      "start": "2026-01-08T14:00:00",
+      "end": "2026-01-08T16:00:00",
+      "uid": "537218-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, 1325 Auditorio\\, BH60A5701 1 LPR Luentoja kaikille\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 537218"
+    },
+    {
+      "start": "2026-01-08T14:00:00",
+      "end": "2026-01-08T16:00:00",
+      "uid": "563441-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563441"
+    },
+    {
+      "start": "2026-01-08T14:00:00",
+      "end": "2026-01-08T16:00:00",
+      "uid": "536786-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 536786"
+    },
+    {
+      "start": "2026-01-08T16:00:00",
+      "end": "2026-01-08T18:00:00",
+      "uid": "536772-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 536772"
+    },
+    {
+      "start": "2026-01-09T08:00:00",
+      "end": "2026-01-09T10:00:00",
+      "uid": "555705-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555705"
+    },
+    {
+      "start": "2026-01-09T10:00:00",
+      "end": "2026-01-09T13:00:00",
+      "uid": "536745-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 536745"
+    },
+    {
+      "start": "2026-01-09T14:00:00",
+      "end": "2026-01-09T16:00:00",
+      "uid": "536773-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 536773"
+    },
+    {
+      "start": "2026-01-09T14:00:00",
+      "end": "2026-01-09T16:00:00",
+      "uid": "536787-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Immonen Mika\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 536787"
+    },
+    {
+      "start": "2026-01-12T10:00:00",
+      "end": "2026-01-12T12:00:00",
+      "uid": "541890-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541890"
+    },
+    {
+      "start": "2026-01-12T10:00:00",
+      "end": "2026-01-12T12:00:00",
+      "uid": "541921-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541921"
+    },
+    {
+      "start": "2026-01-12T10:00:00",
+      "end": "2026-01-12T12:00:00",
+      "uid": "566227-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3045 English for Professional Development (Business)\\, Verkkoluento\\, Laba Tessa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566227"
+    },
+    {
+      "start": "2026-01-12T10:00:00",
+      "end": "2026-01-12T12:00:00",
+      "uid": "555594-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555594"
+    },
+    {
+      "start": "2026-01-12T10:00:00",
+      "end": "2026-01-12T14:00:00",
+      "uid": "537529-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, M19_A116 Oppimistila\\, CS39A0130 1 LAHTI Luentoja kaikille\\, Rautiainen Marita\\, Pihkala Timo\\, lut-tr-TuKIEM3",
+      "location": "",
+      "description": "ID 537529"
+    },
+    {
+      "start": "2026-01-12T12:00:00",
+      "end": "2026-01-12T15:00:00",
+      "uid": "566198-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3005 Kauppatieteen asiantuntijaviestintä\\, Zoom\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566198"
+    },
+    {
+      "start": "2026-01-12T14:00:00",
+      "end": "2026-01-12T16:00:00",
+      "uid": "542143-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542143"
+    },
+    {
+      "start": "2026-01-12T14:00:00",
+      "end": "2026-01-12T16:00:00",
+      "uid": "540731-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Luentoja kaikille\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 540731"
+    },
+    {
+      "start": "2026-01-13T08:00:00",
+      "end": "2026-01-13T10:00:00",
+      "uid": "566113-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566113"
+    },
+    {
+      "start": "2026-01-13T09:00:00",
+      "end": "2026-01-13T12:00:00",
+      "uid": "566192-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3004 Kauppatieteen asiantuntijaviestintä\\, Zoom\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566192"
+    },
+    {
+      "start": "2026-01-13T10:00:00",
+      "end": "2026-01-13T12:00:00",
+      "uid": "545320-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 545320"
+    },
+    {
+      "start": "2026-01-13T10:00:00",
+      "end": "2026-01-13T12:00:00",
+      "uid": "557169-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1567+1568 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557169"
+    },
+    {
+      "start": "2026-01-13T10:00:00",
+      "end": "2026-01-13T12:00:00",
+      "uid": "566228-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3046 English for Professional Development (Business)\\, Verkkoluento\\, Laba Tessa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566228"
+    },
+    {
+      "start": "2026-01-13T12:00:00",
+      "end": "2026-01-13T14:00:00",
+      "uid": "542149-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542149"
+    },
+    {
+      "start": "2026-01-13T12:00:00",
+      "end": "2026-01-13T14:00:00",
+      "uid": "537085-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, 4304+4305 Luentosali\\, A350A0551 1 LPR Luentoja kaikille\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537085"
+    },
+    {
+      "start": "2026-01-13T12:00:00",
+      "end": "2026-01-13T14:00:00",
+      "uid": "555733-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555733"
+    },
+    {
+      "start": "2026-01-14T08:00:00",
+      "end": "2026-01-14T10:00:00",
+      "uid": "567515-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1303 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567515"
+    },
+    {
+      "start": "2026-01-14T10:00:00",
+      "end": "2026-01-14T12:00:00",
+      "uid": "545526-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1314 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545526"
+    },
+    {
+      "start": "2026-01-14T10:00:00",
+      "end": "2026-01-14T12:00:00",
+      "uid": "563442-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563442"
+    },
+    {
+      "start": "2026-01-14T12:00:00",
+      "end": "2026-01-14T14:00:00",
+      "uid": "542125-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542125"
+    },
+    {
+      "start": "2026-01-14T12:00:00",
+      "end": "2026-01-14T14:00:00",
+      "uid": "537563-1372700886-0@timeedit.com",
+      "summary": "A130A0030 Introduction to Business Studies\\, 7339 Luentosali\\, A130A0030 1 LPR Luennot ja harjoitukset\\, Trinidad Mari\\, Saarenvesi Riina\\, lut-tr-KaBSc_SIB1",
+      "location": "",
+      "description": "ID 537563"
+    },
+    {
+      "start": "2026-01-14T12:00:00",
+      "end": "2026-01-14T14:00:00",
+      "uid": "546937-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1316 Auditorio \\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546937"
+    },
+    {
+      "start": "2026-01-14T13:00:00",
+      "end": "2026-01-14T14:00:00",
+      "uid": "562307-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562307"
+    },
+    {
+      "start": "2026-01-15T08:00:00",
+      "end": "2026-01-15T10:00:00",
+      "uid": "555542-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555542"
+    },
+    {
+      "start": "2026-01-15T08:00:00",
+      "end": "2026-01-15T10:00:00",
+      "uid": "567527-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1303 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567527"
+    },
+    {
+      "start": "2026-01-15T10:00:00",
+      "end": "2026-01-15T12:00:00",
+      "uid": "537222-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Luentoja kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 537222"
+    },
+    {
+      "start": "2026-01-15T12:00:00",
+      "end": "2026-01-15T14:00:00",
+      "uid": "542131-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542131"
+    },
+    {
+      "start": "2026-01-15T12:00:00",
+      "end": "2026-01-15T14:00:00",
+      "uid": "537539-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537539"
+    },
+    {
+      "start": "2026-01-15T12:00:00",
+      "end": "2026-01-15T14:00:00",
+      "uid": "566117-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1247 Luentosali \\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566117"
+    },
+    {
+      "start": "2026-01-15T14:00:00",
+      "end": "2026-01-15T16:00:00",
+      "uid": "537221-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 537221"
+    },
+    {
+      "start": "2026-01-15T14:00:00",
+      "end": "2026-01-15T16:00:00",
+      "uid": "545231-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 545231"
+    },
+    {
+      "start": "2026-01-16T08:00:00",
+      "end": "2026-01-16T10:00:00",
+      "uid": "555706-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555706"
+    },
+    {
+      "start": "2026-01-16T10:00:00",
+      "end": "2026-01-16T12:00:00",
+      "uid": "546942-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1318 Auditorio\\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546942"
+    },
+    {
+      "start": "2026-01-16T12:00:00",
+      "end": "2026-01-16T14:00:00",
+      "uid": "563443-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563443"
+    },
+    {
+      "start": "2026-01-16T13:00:00",
+      "end": "2026-01-16T16:00:00",
+      "uid": "537728-1372700886-0@timeedit.com",
+      "summary": "CT80A0200 Software Business\\, M19_A122 Seminaaritila\\, CT80A0200 1 LAHTI Luentoja kaikille\\, Saltan Andrey\\, lut-tr-TiDSPMB_EM1\\, lut-tr-TiDSPMB_KJ1",
+      "location": "",
+      "description": "ID 537728"
+    },
+    {
+      "start": "2026-01-16T14:00:00",
+      "end": "2026-01-16T16:00:00",
+      "uid": "542137-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542137"
+    },
+    {
+      "start": "2026-01-19T10:00:00",
+      "end": "2026-01-19T12:00:00",
+      "uid": "541891-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541891"
+    },
+    {
+      "start": "2026-01-19T10:00:00",
+      "end": "2026-01-19T12:00:00",
+      "uid": "541922-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541922"
+    },
+    {
+      "start": "2026-01-19T10:00:00",
+      "end": "2026-01-19T12:00:00",
+      "uid": "555595-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555595"
+    },
+    {
+      "start": "2026-01-19T10:00:00",
+      "end": "2026-01-19T14:00:00",
+      "uid": "541462-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, M19_A116 Oppimistila\\, CS39A0130 1 LAHTI Luentoja kaikille\\, Rautiainen Marita\\, Pihkala Timo\\, lut-tr-TuKIEM3",
+      "location": "",
+      "description": "ID 541462"
+    },
+    {
+      "start": "2026-01-19T12:00:00",
+      "end": "2026-01-19T14:00:00",
+      "uid": "557141-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1567+1568 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557141"
+    },
+    {
+      "start": "2026-01-19T14:00:00",
+      "end": "2026-01-19T16:00:00",
+      "uid": "542144-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542144"
+    },
+    {
+      "start": "2026-01-19T14:00:00",
+      "end": "2026-01-19T16:00:00",
+      "uid": "540732-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Luentoja kaikille\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 540732"
+    },
+    {
+      "start": "2026-01-20T08:00:00",
+      "end": "2026-01-20T10:00:00",
+      "uid": "566114-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566114"
+    },
+    {
+      "start": "2026-01-20T09:00:00",
+      "end": "2026-01-20T21:00:00",
+      "uid": "537316-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 537316"
+    },
+    {
+      "start": "2026-01-20T10:00:00",
+      "end": "2026-01-20T12:00:00",
+      "uid": "545321-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 545321"
+    },
+    {
+      "start": "2026-01-20T12:00:00",
+      "end": "2026-01-20T14:00:00",
+      "uid": "542150-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542150"
+    },
+    {
+      "start": "2026-01-20T12:00:00",
+      "end": "2026-01-20T14:00:00",
+      "uid": "537086-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, 4304+4305 Luentosali\\, A350A0551 1 LPR Luentoja kaikille\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537086"
+    },
+    {
+      "start": "2026-01-20T12:00:00",
+      "end": "2026-01-20T14:00:00",
+      "uid": "563449-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563449"
+    },
+    {
+      "start": "2026-01-20T12:00:00",
+      "end": "2026-01-20T15:00:00",
+      "uid": "537700-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 537700"
+    },
+    {
+      "start": "2026-01-20T12:00:00",
+      "end": "2026-01-20T16:00:00",
+      "uid": "546938-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1316 Auditorio \\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546938"
+    },
+    {
+      "start": "2026-01-20T14:00:00",
+      "end": "2026-01-20T16:00:00",
+      "uid": "566780-1372700886-0@timeedit.com",
+      "summary": "KS00CA42-3020 Tieteellinen kirjoittaminen (kauppa)\\, Zoom\\, Laihanen Esa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566780"
+    },
+    {
+      "start": "2026-01-21T08:00:00",
+      "end": "2026-01-21T10:00:00",
+      "uid": "567516-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567516"
+    },
+    {
+      "start": "2026-01-21T10:00:00",
+      "end": "2026-01-21T12:00:00",
+      "uid": "536899-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Harjoituksia kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 536899"
+    },
+    {
+      "start": "2026-01-21T10:00:00",
+      "end": "2026-01-21T12:00:00",
+      "uid": "545527-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545527"
+    },
+    {
+      "start": "2026-01-21T10:00:00",
+      "end": "2026-01-21T12:00:00",
+      "uid": "557170-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1567+1568 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557170"
+    },
+    {
+      "start": "2026-01-21T12:00:00",
+      "end": "2026-01-21T14:00:00",
+      "uid": "542126-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542126"
+    },
+    {
+      "start": "2026-01-21T12:00:00",
+      "end": "2026-01-21T14:00:00",
+      "uid": "546943-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1316 Auditorio \\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546943"
+    },
+    {
+      "start": "2026-01-21T13:00:00",
+      "end": "2026-01-21T14:00:00",
+      "uid": "562308-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562308"
+    },
+    {
+      "start": "2026-01-21T14:00:00",
+      "end": "2026-01-21T17:00:00",
+      "uid": "566278-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3004 Kauppatieteen asiantuntijaviestintä\\, 1304 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566278"
+    },
+    {
+      "start": "2026-01-22T08:00:00",
+      "end": "2026-01-22T10:00:00",
+      "uid": "555543-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555543"
+    },
+    {
+      "start": "2026-01-22T08:00:00",
+      "end": "2026-01-22T10:00:00",
+      "uid": "567528-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1370 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567528"
+    },
+    {
+      "start": "2026-01-22T10:00:00",
+      "end": "2026-01-22T12:00:00",
+      "uid": "536900-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Seminaaritilaisuuksia\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 536900"
+    },
+    {
+      "start": "2026-01-22T10:00:00",
+      "end": "2026-01-22T12:00:00",
+      "uid": "563431-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563431"
+    },
+    {
+      "start": "2026-01-22T12:00:00",
+      "end": "2026-01-22T14:00:00",
+      "uid": "542132-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542132"
+    },
+    {
+      "start": "2026-01-22T12:00:00",
+      "end": "2026-01-22T14:00:00",
+      "uid": "537540-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537540"
+    },
+    {
+      "start": "2026-01-22T12:00:00",
+      "end": "2026-01-22T14:00:00",
+      "uid": "566118-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1247 Luentosali \\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566118"
+    },
+    {
+      "start": "2026-01-22T14:00:00",
+      "end": "2026-01-22T16:00:00",
+      "uid": "541967-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541967"
+    },
+    {
+      "start": "2026-01-22T14:00:00",
+      "end": "2026-01-22T18:00:00",
+      "uid": "545232-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 545232"
+    },
+    {
+      "start": "2026-01-23T08:00:00",
+      "end": "2026-01-23T10:00:00",
+      "uid": "555707-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555707"
+    },
+    {
+      "start": "2026-01-23T14:00:00",
+      "end": "2026-01-23T16:00:00",
+      "uid": "542138-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542138"
+    },
+    {
+      "start": "2026-01-26T10:00:00",
+      "end": "2026-01-26T12:00:00",
+      "uid": "537522-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Sadiqa Ayesha\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 537522"
+    },
+    {
+      "start": "2026-01-26T10:00:00",
+      "end": "2026-01-26T12:00:00",
+      "uid": "541927-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541927"
+    },
+    {
+      "start": "2026-01-26T10:00:00",
+      "end": "2026-01-26T12:00:00",
+      "uid": "557142-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557142"
+    },
+    {
+      "start": "2026-01-26T10:00:00",
+      "end": "2026-01-26T14:00:00",
+      "uid": "537220-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, NIE73_B247 Teorialuokka\\, BH60A5701 1 LAHTI Seminaaritilaisuuksia\\, Linnanen Lassi\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1",
+      "location": "",
+      "description": "ID 537220"
+    },
+    {
+      "start": "2026-01-26T10:00:00",
+      "end": "2026-01-26T14:00:00",
+      "uid": "541481-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, M19_A116 Oppimistila\\, CS39A0130 1 LAHTI Luentoja kaikille\\, Rautiainen Marita\\, Pihkala Timo\\, lut-tr-TuKIEM3",
+      "location": "",
+      "description": "ID 541481"
+    },
+    {
+      "start": "2026-01-26T12:00:00",
+      "end": "2026-01-26T14:00:00",
+      "uid": "563450-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563450"
+    },
+    {
+      "start": "2026-01-26T14:00:00",
+      "end": "2026-01-26T16:00:00",
+      "uid": "542145-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542145"
+    },
+    {
+      "start": "2026-01-26T14:00:00",
+      "end": "2026-01-26T16:00:00",
+      "uid": "540733-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Luentoja kaikille\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 540733"
+    },
+    {
+      "start": "2026-01-27T08:00:00",
+      "end": "2026-01-27T10:00:00",
+      "uid": "566115-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566115"
+    },
+    {
+      "start": "2026-01-27T09:00:00",
+      "end": "2026-01-27T12:00:00",
+      "uid": "537231-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 537231"
+    },
+    {
+      "start": "2026-01-27T10:00:00",
+      "end": "2026-01-27T12:00:00",
+      "uid": "536747-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 536747"
+    },
+    {
+      "start": "2026-01-27T10:00:00",
+      "end": "2026-01-27T12:00:00",
+      "uid": "557171-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1304 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557171"
+    },
+    {
+      "start": "2026-01-27T12:00:00",
+      "end": "2026-01-27T14:00:00",
+      "uid": "542151-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542151"
+    },
+    {
+      "start": "2026-01-27T12:00:00",
+      "end": "2026-01-27T14:00:00",
+      "uid": "537087-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, 2305 Luentosali\\, A350A0551 1 LPR Luentoja kaikille\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537087"
+    },
+    {
+      "start": "2026-01-27T12:00:00",
+      "end": "2026-01-27T14:00:00",
+      "uid": "555734-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555734"
+    },
+    {
+      "start": "2026-01-27T12:00:00",
+      "end": "2026-01-27T15:00:00",
+      "uid": "548539-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 548539"
+    },
+    {
+      "start": "2026-01-27T14:00:00",
+      "end": "2026-01-27T16:00:00",
+      "uid": "566781-1372700886-0@timeedit.com",
+      "summary": "KS00CA42-3020 Tieteellinen kirjoittaminen (kauppa)\\, Zoom\\, Laihanen Esa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566781"
+    },
+    {
+      "start": "2026-01-28T10:00:00",
+      "end": "2026-01-28T12:00:00",
+      "uid": "545528-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545528"
+    },
+    {
+      "start": "2026-01-28T10:00:00",
+      "end": "2026-01-28T12:00:00",
+      "uid": "567517-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567517"
+    },
+    {
+      "start": "2026-01-28T12:00:00",
+      "end": "2026-01-28T14:00:00",
+      "uid": "542127-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542127"
+    },
+    {
+      "start": "2026-01-28T12:00:00",
+      "end": "2026-01-28T14:00:00",
+      "uid": "546939-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1318 Auditorio\\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546939"
+    },
+    {
+      "start": "2026-01-28T13:00:00",
+      "end": "2026-01-28T14:00:00",
+      "uid": "562309-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562309"
+    },
+    {
+      "start": "2026-01-28T14:00:00",
+      "end": "2026-01-28T17:00:00",
+      "uid": "566279-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3004 Kauppatieteen asiantuntijaviestintä\\, 1304 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566279"
+    },
+    {
+      "start": "2026-01-29T08:00:00",
+      "end": "2026-01-29T10:00:00",
+      "uid": "555544-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555544"
+    },
+    {
+      "start": "2026-01-29T08:00:00",
+      "end": "2026-01-29T10:00:00",
+      "uid": "567529-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1370 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567529"
+    },
+    {
+      "start": "2026-01-29T10:00:00",
+      "end": "2026-01-29T11:00:00",
+      "uid": "555368-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, Virtuaalinen luokka Virtual classroom\\, A330A0061 1 Virtuaaliluennot\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 555368"
+    },
+    {
+      "start": "2026-01-29T10:00:00",
+      "end": "2026-01-29T12:00:00",
+      "uid": "546130-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Luentoja kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 546130"
+    },
+    {
+      "start": "2026-01-29T12:00:00",
+      "end": "2026-01-29T14:00:00",
+      "uid": "542133-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542133"
+    },
+    {
+      "start": "2026-01-29T12:00:00",
+      "end": "2026-01-29T14:00:00",
+      "uid": "537088-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliluennot\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537088"
+    },
+    {
+      "start": "2026-01-29T12:00:00",
+      "end": "2026-01-29T14:00:00",
+      "uid": "566119-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1247 Luentosali \\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566119"
+    },
+    {
+      "start": "2026-01-29T14:00:00",
+      "end": "2026-01-29T16:00:00",
+      "uid": "545233-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 545233"
+    },
+    {
+      "start": "2026-01-29T16:00:00",
+      "end": "2026-01-29T18:00:00",
+      "uid": "537541-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537541"
+    },
+    {
+      "start": "2026-01-30T08:00:00",
+      "end": "2026-01-30T10:00:00",
+      "uid": "555708-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555708"
+    },
+    {
+      "start": "2026-01-30T09:00:00",
+      "end": "2026-01-30T12:00:00",
+      "uid": "552105-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552105"
+    },
+    {
+      "start": "2026-01-30T09:00:00",
+      "end": "2026-01-30T12:00:00",
+      "uid": "566281-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3005 Kauppatieteen asiantuntijaviestintä\\, 1447 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566281"
+    },
+    {
+      "start": "2026-01-30T10:00:00",
+      "end": "2026-01-30T12:00:00",
+      "uid": "536748-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 536748"
+    },
+    {
+      "start": "2026-01-30T10:00:00",
+      "end": "2026-01-30T14:00:00",
+      "uid": "537219-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, 3310 Auditorio\\, BH60A5701 1 LPR Seminaaritilaisuuksia\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 537219"
+    },
+    {
+      "start": "2026-01-30T14:00:00",
+      "end": "2026-01-30T16:00:00",
+      "uid": "542139-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542139"
+    },
+    {
+      "start": "2026-02-02T10:00:00",
+      "end": "2026-02-02T12:00:00",
+      "uid": "541892-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541892"
+    },
+    {
+      "start": "2026-02-02T10:00:00",
+      "end": "2026-02-02T12:00:00",
+      "uid": "541923-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541923"
+    },
+    {
+      "start": "2026-02-02T10:00:00",
+      "end": "2026-02-02T12:00:00",
+      "uid": "555596-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555596"
+    },
+    {
+      "start": "2026-02-02T10:00:00",
+      "end": "2026-02-02T14:00:00",
+      "uid": "541463-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, M19_A116 Oppimistila\\, CS39A0130 1 LAHTI Luentoja kaikille\\, Rautiainen Marita\\, Pihkala Timo\\, lut-tr-TuKIEM3",
+      "location": "",
+      "description": "ID 541463"
+    },
+    {
+      "start": "2026-02-02T14:00:00",
+      "end": "2026-02-02T16:00:00",
+      "uid": "542146-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542146"
+    },
+    {
+      "start": "2026-02-03T08:00:00",
+      "end": "2026-02-03T10:00:00",
+      "uid": "566116-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566116"
+    },
+    {
+      "start": "2026-02-03T09:00:00",
+      "end": "2026-02-03T12:00:00",
+      "uid": "552106-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552106"
+    },
+    {
+      "start": "2026-02-03T10:00:00",
+      "end": "2026-02-03T12:00:00",
+      "uid": "545322-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 545322"
+    },
+    {
+      "start": "2026-02-03T10:00:00",
+      "end": "2026-02-03T12:00:00",
+      "uid": "563451-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 6323 Luentosali\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563451"
+    },
+    {
+      "start": "2026-02-03T12:00:00",
+      "end": "2026-02-03T14:00:00",
+      "uid": "542152-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542152"
+    },
+    {
+      "start": "2026-02-03T12:00:00",
+      "end": "2026-02-03T14:00:00",
+      "uid": "537089-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliluennot\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537089"
+    },
+    {
+      "start": "2026-02-03T12:00:00",
+      "end": "2026-02-03T15:00:00",
+      "uid": "548540-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 548540"
+    },
+    {
+      "start": "2026-02-03T12:00:00",
+      "end": "2026-02-03T16:00:00",
+      "uid": "546940-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1316 Auditorio \\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546940"
+    },
+    {
+      "start": "2026-02-03T14:00:00",
+      "end": "2026-02-03T16:00:00",
+      "uid": "566782-1372700886-0@timeedit.com",
+      "summary": "KS00CA42-3020 Tieteellinen kirjoittaminen (kauppa)\\, Zoom\\, Laihanen Esa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566782"
+    },
+    {
+      "start": "2026-02-04T08:00:00",
+      "end": "2026-02-04T10:00:00",
+      "uid": "557143-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1566 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557143"
+    },
+    {
+      "start": "2026-02-04T08:00:00",
+      "end": "2026-02-04T10:00:00",
+      "uid": "567518-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567518"
+    },
+    {
+      "start": "2026-02-04T08:00:00",
+      "end": "2026-02-04T16:00:00",
+      "uid": "566283-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3004 Kauppatieteen asiantuntijaviestintä\\, 2303 Oppimistila\\, Kokkonen Sampo\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566283"
+    },
+    {
+      "start": "2026-02-04T10:00:00",
+      "end": "2026-02-04T12:00:00",
+      "uid": "546115-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 2209 Luentosali\\, A380A6060 1 LPR Harjoituksia kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 546115"
+    },
+    {
+      "start": "2026-02-04T10:00:00",
+      "end": "2026-02-04T12:00:00",
+      "uid": "545529-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545529"
+    },
+    {
+      "start": "2026-02-04T10:00:00",
+      "end": "2026-02-04T12:00:00",
+      "uid": "557172-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1367 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557172"
+    },
+    {
+      "start": "2026-02-04T12:00:00",
+      "end": "2026-02-04T14:00:00",
+      "uid": "542128-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542128"
+    },
+    {
+      "start": "2026-02-04T12:00:00",
+      "end": "2026-02-04T14:00:00",
+      "uid": "537564-1372700886-0@timeedit.com",
+      "summary": "A130A0030 Introduction to Business Studies\\, 7339 Luentosali\\, A130A0030 1 LPR Luennot ja harjoitukset\\, Ajo Petri\\, lut-tr-KaBSc_SIB1",
+      "location": "",
+      "description": "ID 537564"
+    },
+    {
+      "start": "2026-02-04T12:00:00",
+      "end": "2026-02-04T14:00:00",
+      "uid": "546945-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 1318 Auditorio\\, A330A0061 1 LPR Luentoja kaikille\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 546945"
+    },
+    {
+      "start": "2026-02-04T13:00:00",
+      "end": "2026-02-04T14:00:00",
+      "uid": "562310-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562310"
+    },
+    {
+      "start": "2026-02-05T08:00:00",
+      "end": "2026-02-05T10:00:00",
+      "uid": "555545-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555545"
+    },
+    {
+      "start": "2026-02-05T08:00:00",
+      "end": "2026-02-05T10:00:00",
+      "uid": "567530-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1303 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567530"
+    },
+    {
+      "start": "2026-02-05T10:00:00",
+      "end": "2026-02-05T12:00:00",
+      "uid": "546123-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Seminaaritilaisuuksia\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 546123"
+    },
+    {
+      "start": "2026-02-05T10:00:00",
+      "end": "2026-02-05T12:00:00",
+      "uid": "563432-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563432"
+    },
+    {
+      "start": "2026-02-05T12:00:00",
+      "end": "2026-02-05T14:00:00",
+      "uid": "542134-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542134"
+    },
+    {
+      "start": "2026-02-05T12:00:00",
+      "end": "2026-02-05T14:00:00",
+      "uid": "537542-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537542"
+    },
+    {
+      "start": "2026-02-05T12:00:00",
+      "end": "2026-02-05T14:00:00",
+      "uid": "566120-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1247 Luentosali \\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566120"
+    },
+    {
+      "start": "2026-02-05T14:00:00",
+      "end": "2026-02-05T16:00:00",
+      "uid": "541968-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541968"
+    },
+    {
+      "start": "2026-02-05T14:00:00",
+      "end": "2026-02-05T16:00:00",
+      "uid": "545234-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 545234"
+    },
+    {
+      "start": "2026-02-06T08:00:00",
+      "end": "2026-02-06T10:00:00",
+      "uid": "555709-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555709"
+    },
+    {
+      "start": "2026-02-06T09:00:00",
+      "end": "2026-02-06T12:00:00",
+      "uid": "552107-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552107"
+    },
+    {
+      "start": "2026-02-06T09:00:00",
+      "end": "2026-02-06T12:00:00",
+      "uid": "566282-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3005 Kauppatieteen asiantuntijaviestintä\\, 1447 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566282"
+    },
+    {
+      "start": "2026-02-06T12:00:00",
+      "end": "2026-02-06T14:00:00",
+      "uid": "537543-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537543"
+    },
+    {
+      "start": "2026-02-06T14:00:00",
+      "end": "2026-02-06T16:00:00",
+      "uid": "542140-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542140"
+    },
+    {
+      "start": "2026-02-09T10:00:00",
+      "end": "2026-02-09T12:00:00",
+      "uid": "541893-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541893"
+    },
+    {
+      "start": "2026-02-09T10:00:00",
+      "end": "2026-02-09T12:00:00",
+      "uid": "541924-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541924"
+    },
+    {
+      "start": "2026-02-09T10:00:00",
+      "end": "2026-02-09T12:00:00",
+      "uid": "557144-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557144"
+    },
+    {
+      "start": "2026-02-09T10:00:00",
+      "end": "2026-02-09T14:00:00",
+      "uid": "541464-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, M19_A116 Oppimistila\\, CS39A0130 1 LAHTI Luentoja kaikille\\, Rautiainen Marita\\, Pihkala Timo\\, lut-tr-TuKIEM3",
+      "location": "",
+      "description": "ID 541464"
+    },
+    {
+      "start": "2026-02-09T12:00:00",
+      "end": "2026-02-09T14:00:00",
+      "uid": "537307-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 7339 Luentosali\\, CT30A3204 1 LPR Luentoja kaikille\\, Vanhala Erno\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 537307"
+    },
+    {
+      "start": "2026-02-09T14:00:00",
+      "end": "2026-02-09T16:00:00",
+      "uid": "542147-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542147"
+    },
+    {
+      "start": "2026-02-09T14:00:00",
+      "end": "2026-02-09T16:00:00",
+      "uid": "540734-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Luentoja kaikille\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 540734"
+    },
+    {
+      "start": "2026-02-10T08:00:00",
+      "end": "2026-02-10T16:00:00",
+      "uid": "537697-1372700886-0@timeedit.com",
+      "summary": "A330A0061 B2B Marketing\\, 2305 Luentosali\\, A330A0061 1 LPR Seminaaritilaisuuksia\\, Keränen Joona\\, lut-tr-KaMMIMM_1\\, lut-tr-KaMMIMMBusan_1",
+      "location": "",
+      "description": "ID 537697"
+    },
+    {
+      "start": "2026-02-10T09:00:00",
+      "end": "2026-02-10T12:00:00",
+      "uid": "552108-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552108"
+    },
+    {
+      "start": "2026-02-10T10:00:00",
+      "end": "2026-02-10T12:00:00",
+      "uid": "557173-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1567+1568 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557173"
+    },
+    {
+      "start": "2026-02-10T10:00:00",
+      "end": "2026-02-10T12:00:00",
+      "uid": "563445-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 6323 Luentosali\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563445"
+    },
+    {
+      "start": "2026-02-10T12:00:00",
+      "end": "2026-02-10T14:00:00",
+      "uid": "542153-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542153"
+    },
+    {
+      "start": "2026-02-10T12:00:00",
+      "end": "2026-02-10T14:00:00",
+      "uid": "555735-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555735"
+    },
+    {
+      "start": "2026-02-10T12:00:00",
+      "end": "2026-02-10T15:00:00",
+      "uid": "548541-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 548541"
+    },
+    {
+      "start": "2026-02-11T08:00:00",
+      "end": "2026-02-11T16:00:00",
+      "uid": "566284-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3005 Kauppatieteen asiantuntijaviestintä\\, 1370 Oppimistila\\, Kokkonen Sampo\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566284"
+    },
+    {
+      "start": "2026-02-11T10:00:00",
+      "end": "2026-02-11T12:00:00",
+      "uid": "545530-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545530"
+    },
+    {
+      "start": "2026-02-11T12:00:00",
+      "end": "2026-02-11T14:00:00",
+      "uid": "542129-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542129"
+    },
+    {
+      "start": "2026-02-11T12:00:00",
+      "end": "2026-02-11T14:00:00",
+      "uid": "567519-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3020 Svenska i arbetslivet (handel)\\, skriftlig\\, 1369 Oppimistila\\, Mäkinen Satu\\, Harjoitukset 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 567519"
+    },
+    {
+      "start": "2026-02-11T13:00:00",
+      "end": "2026-02-11T14:00:00",
+      "uid": "562311-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562311"
+    },
+    {
+      "start": "2026-02-11T14:00:00",
+      "end": "2026-02-11T16:00:00",
+      "uid": "537052-1372700886-0@timeedit.com",
+      "summary": "A350A2000 Business Ethics\\, 7332 Luentosali\\, A350A2000 1 LPR Seminaaritilaisuuksia\\, Olkkonen Laura\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMTIJO_1",
+      "location": "",
+      "description": "ID 537052"
+    },
+    {
+      "start": "2026-02-11T14:00:00",
+      "end": "2026-02-11T16:00:00",
+      "uid": "541969-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541969"
+    },
+    {
+      "start": "2026-02-12T08:00:00",
+      "end": "2026-02-12T10:00:00",
+      "uid": "555546-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555546"
+    },
+    {
+      "start": "2026-02-12T10:00:00",
+      "end": "2026-02-12T12:00:00",
+      "uid": "546131-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Luentoja kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 546131"
+    },
+    {
+      "start": "2026-02-12T12:00:00",
+      "end": "2026-02-12T14:00:00",
+      "uid": "542135-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542135"
+    },
+    {
+      "start": "2026-02-12T12:00:00",
+      "end": "2026-02-12T14:00:00",
+      "uid": "537544-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 7339 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537544"
+    },
+    {
+      "start": "2026-02-12T14:00:00",
+      "end": "2026-02-12T16:00:00",
+      "uid": "566121-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3021 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Jurvanen Anni\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566121"
+    },
+    {
+      "start": "2026-02-12T16:00:00",
+      "end": "2026-02-12T20:00:00",
+      "uid": "511068-1372700886-0@timeedit.com",
+      "summary": "BJ05A1030 Bio-based Chemicals and Consumer Products\\, HDD5030 Data Structures and Algorithms (HDD)\\, LUT Tentti Lahti\\, M19_AUD2B Auditorio 2\\, M19_AUD3B Auditorio 3",
+      "location": "",
+      "description": "ID 511068"
+    },
+    {
+      "start": "2026-02-13T08:00:00",
+      "end": "2026-02-13T10:00:00",
+      "uid": "555710-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555710"
+    },
+    {
+      "start": "2026-02-13T09:00:00",
+      "end": "2026-02-13T12:00:00",
+      "uid": "552109-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Kuivalainen Olli\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552109"
+    },
+    {
+      "start": "2026-02-13T10:00:00",
+      "end": "2026-02-13T13:00:00",
+      "uid": "545323-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Luentoja kaikille\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 545323"
+    },
+    {
+      "start": "2026-02-13T12:00:00",
+      "end": "2026-02-13T14:00:00",
+      "uid": "537545-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 2209 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537545"
+    },
+    {
+      "start": "2026-02-13T13:00:00",
+      "end": "2026-02-13T16:00:00",
+      "uid": "539447-1372700886-0@timeedit.com",
+      "summary": "CT80A0200 Software Business\\, M19_A122 Seminaaritila\\, CT80A0200 1 LAHTI Luentoja kaikille\\, Saltan Andrey\\, lut-tr-TiDSPMB_EM1\\, lut-tr-TiDSPMB_KJ1",
+      "location": "",
+      "description": "ID 539447"
+    },
+    {
+      "start": "2026-02-13T14:00:00",
+      "end": "2026-02-13T16:00:00",
+      "uid": "542141-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542141"
+    },
+    {
+      "start": "2026-02-16T10:00:00",
+      "end": "2026-02-16T12:00:00",
+      "uid": "541894-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541894"
+    },
+    {
+      "start": "2026-02-16T10:00:00",
+      "end": "2026-02-16T12:00:00",
+      "uid": "541925-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541925"
+    },
+    {
+      "start": "2026-02-16T10:00:00",
+      "end": "2026-02-16T12:00:00",
+      "uid": "555597-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555597"
+    },
+    {
+      "start": "2026-02-16T12:00:00",
+      "end": "2026-02-16T14:00:00",
+      "uid": "557145-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1303 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557145"
+    },
+    {
+      "start": "2026-02-16T12:00:00",
+      "end": "2026-02-16T18:00:00",
+      "uid": "566287-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3005 Kauppatieteen asiantuntijaviestintä\\, 1447 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566287"
+    },
+    {
+      "start": "2026-02-16T14:00:00",
+      "end": "2026-02-16T16:00:00",
+      "uid": "542148-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 1",
+      "location": "",
+      "description": "ID 542148"
+    },
+    {
+      "start": "2026-02-17T10:00:00",
+      "end": "2026-02-17T12:00:00",
+      "uid": "563444-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 6323 Luentosali\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563444"
+    },
+    {
+      "start": "2026-02-17T10:00:00",
+      "end": "2026-02-17T14:00:00",
+      "uid": "536746-1372700886-0@timeedit.com",
+      "summary": "A380A0000 Cross-Cultural Issues in International Business\\, 2305 Luentosali\\, A380A0000 1 LPR Seminaaritilaisuuksia\\, OShea Gregory\\, Sidorenko Anna\\, lut-tr-KaBSc_SIB1\\, lut-tr-KaKBSc Kvmark 2\\, lut-tr-KaKBSc_2sivuopintoa Kvmark 2",
+      "location": "",
+      "description": "ID 536746"
+    },
+    {
+      "start": "2026-02-17T12:00:00",
+      "end": "2026-02-17T14:00:00",
+      "uid": "542154-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, M19_C237 Oppimistila (tvt-labra)\\, CT30A3204 1 LAHTI Harjoitusryhmä 2",
+      "location": "",
+      "description": "ID 542154"
+    },
+    {
+      "start": "2026-02-17T12:00:00",
+      "end": "2026-02-17T15:00:00",
+      "uid": "548542-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 548542"
+    },
+    {
+      "start": "2026-02-18T10:00:00",
+      "end": "2026-02-18T12:00:00",
+      "uid": "545531-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545531"
+    },
+    {
+      "start": "2026-02-18T10:00:00",
+      "end": "2026-02-18T12:00:00",
+      "uid": "557174-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557174"
+    },
+    {
+      "start": "2026-02-18T10:00:00",
+      "end": "2026-02-18T16:00:00",
+      "uid": "566285-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3004 Kauppatieteen asiantuntijaviestintä\\, 1370 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566285"
+    },
+    {
+      "start": "2026-02-18T12:00:00",
+      "end": "2026-02-18T14:00:00",
+      "uid": "542130-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 1\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542130"
+    },
+    {
+      "start": "2026-02-18T13:00:00",
+      "end": "2026-02-18T14:00:00",
+      "uid": "562312-1372700886-0@timeedit.com",
+      "summary": "KR00CR62-3008 Svenska på företag\\, Verkkoluento\\, Naalisvaara-Jokinen Merja\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562312"
+    },
+    {
+      "start": "2026-02-19T08:00:00",
+      "end": "2026-02-19T10:00:00",
+      "uid": "555547-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555547"
+    },
+    {
+      "start": "2026-02-19T10:00:00",
+      "end": "2026-02-19T12:00:00",
+      "uid": "546109-1372700886-0@timeedit.com",
+      "summary": "A380A6060 Applied International Business\\, 3310 Auditorio\\, A380A6060 1 LPR Luentoja kaikille\\, Mortazavibabaheidari Sina\\, lut-tr-KaBSc_SIB3",
+      "location": "",
+      "description": "ID 546109"
+    },
+    {
+      "start": "2026-02-19T10:00:00",
+      "end": "2026-02-19T12:00:00",
+      "uid": "563433-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563433"
+    },
+    {
+      "start": "2026-02-19T10:00:00",
+      "end": "2026-02-19T12:00:00",
+      "uid": "555711-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555711"
+    },
+    {
+      "start": "2026-02-19T12:00:00",
+      "end": "2026-02-19T14:00:00",
+      "uid": "542136-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, 6218 LINUX Mikroluokka\\, CT30A3204 1 LPR Harjoitusryhmä 2\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542136"
+    },
+    {
+      "start": "2026-02-19T14:00:00",
+      "end": "2026-02-19T15:00:00",
+      "uid": "545235-1372700886-0@timeedit.com",
+      "summary": "A130A0220 Julkiset hankinnat\\, Virtuaalinen luokka Virtual classroom\\, A130A0220 1 LPR Luentoja kaikille\\, Karttunen Elina\\, lut-tr-KaKBSc Hank 2\\, lut-tr-KaKBSc_2sivuopintoa Hank 2",
+      "location": "",
+      "description": "ID 545235"
+    },
+    {
+      "start": "2026-02-19T14:00:00",
+      "end": "2026-02-19T16:00:00",
+      "uid": "541970-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541970"
+    },
+    {
+      "start": "2026-02-20T10:00:00",
+      "end": "2026-02-20T12:00:00",
+      "uid": "563452-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3025 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Naalisvaara-Jokinen Merja\\, lut-tr-TuKTUTA1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563452"
+    },
+    {
+      "start": "2026-02-20T14:00:00",
+      "end": "2026-02-20T16:00:00",
+      "uid": "542142-1372700886-0@timeedit.com",
+      "summary": "CT30A3204 Advanced Web Applications\\, Virtuaalinen luokka Virtual classroom\\, CT30A3204 1 LPR Harjoitusryhmä 3\\, lut-tr-TiKTite3",
+      "location": "",
+      "description": "ID 542142"
+    },
+    {
+      "start": "2026-02-24T12:00:00",
+      "end": "2026-02-24T15:00:00",
+      "uid": "548543-1372700886-0@timeedit.com",
+      "summary": "A350AJ700 Sustainability and Impact in Business Research\\, A350AJ700 1 LPR Luentoja kaikille\\, Heikkurinen Pasi",
+      "location": "",
+      "description": "ID 548543"
+    },
+    {
+      "start": "2026-02-25T08:00:00",
+      "end": "2026-02-25T12:00:00",
+      "uid": "563746-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, LUT Tentti Lahti\\, M19_AUD2B Auditorio 2\\, M19_D251 Oppimistila",
+      "location": "",
+      "description": "ID 563746"
+    },
+    {
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "566377-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3006 Kauppatieteen asiantuntijaviestintä\\, Zoom\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566377"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "555355-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555355"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "566494-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566494"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "541928-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541928"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "541934-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Sadiqa Ayesha\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541934"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T12:00:00",
+      "uid": "555598-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555598"
+    },
+    {
+      "start": "2026-03-02T10:00:00",
+      "end": "2026-03-02T14:00:00",
+      "uid": "541960-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, M19_A116 Oppimistila\\, BH60A5701 1 LAHTI Seminaaritilaisuuksia\\, Linnanen Lassi\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1",
+      "location": "",
+      "description": "ID 541960"
+    },
+    {
+      "start": "2026-03-02T12:00:00",
+      "end": "2026-03-02T14:00:00",
+      "uid": "536709-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Luentoja kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 536709"
+    },
+    {
+      "start": "2026-03-02T12:00:00",
+      "end": "2026-03-02T14:00:00",
+      "uid": "562686-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1447 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562686"
+    },
+    {
+      "start": "2026-03-02T12:00:00",
+      "end": "2026-03-02T18:00:00",
+      "uid": "537599-1372700886-0@timeedit.com",
+      "summary": "A330A0800 Digital Marketing in Action\\, 2305 Luentosali\\, A330A0800 1 LPR Luentoja kaikille\\, Uzhegova Maria",
+      "location": "",
+      "description": "ID 537599"
+    },
+    {
+      "start": "2026-03-02T14:00:00",
+      "end": "2026-03-02T16:00:00",
+      "uid": "562287-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562287"
+    },
+    {
+      "start": "2026-03-03T08:00:00",
+      "end": "2026-03-03T10:00:00",
+      "uid": "562269-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562269"
+    },
+    {
+      "start": "2026-03-03T08:00:00",
+      "end": "2026-03-03T10:00:00",
+      "uid": "563477-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563477"
+    },
+    {
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T21:00:00",
+      "uid": "552110-1372700886-0@timeedit.com",
+      "summary": "A330A0450 Responsible International Business\\, Virtuaalinen luokka Virtual classroom\\, A330A0450 1 Virtuaaliluennot\\, Sinkovics Rudolf",
+      "location": "",
+      "description": "ID 552110"
+    },
+    {
+      "start": "2026-03-03T09:30:00",
+      "end": "2026-03-03T14:00:00",
+      "uid": "560303-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 560303"
+    },
+    {
+      "start": "2026-03-03T10:00:00",
+      "end": "2026-03-03T12:00:00",
+      "uid": "566629-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566629"
+    },
+    {
+      "start": "2026-03-03T12:00:00",
+      "end": "2026-03-03T14:30:00",
+      "uid": "537090-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliharjoitukset\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537090"
+    },
+    {
+      "start": "2026-03-03T12:00:00",
+      "end": "2026-03-03T16:00:00",
+      "uid": "537523-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537523"
+    },
+    {
+      "start": "2026-03-03T12:00:00",
+      "end": "2026-03-03T18:00:00",
+      "uid": "543776-1372700886-0@timeedit.com",
+      "summary": "A330A0800 Digital Marketing in Action\\, 2305 Luentosali\\, A330A0800 1 LPR Luentoja kaikille\\, Uzhegova Maria",
+      "location": "",
+      "description": "ID 543776"
+    },
+    {
+      "start": "2026-03-04T08:00:00",
+      "end": "2026-03-04T10:00:00",
+      "uid": "562691-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1304 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562691"
+    },
+    {
+      "start": "2026-03-04T10:00:00",
+      "end": "2026-03-04T12:00:00",
+      "uid": "555360-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_A127 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555360"
+    },
+    {
+      "start": "2026-03-04T10:00:00",
+      "end": "2026-03-04T12:00:00",
+      "uid": "566466-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566466"
+    },
+    {
+      "start": "2026-03-04T10:00:00",
+      "end": "2026-03-04T12:00:00",
+      "uid": "550258-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550258"
+    },
+    {
+      "start": "2026-03-04T10:00:00",
+      "end": "2026-03-04T12:00:00",
+      "uid": "545532-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545532"
+    },
+    {
+      "start": "2026-03-04T12:00:00",
+      "end": "2026-03-04T15:00:00",
+      "uid": "536710-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 536710"
+    },
+    {
+      "start": "2026-03-04T14:00:00",
+      "end": "2026-03-04T16:00:00",
+      "uid": "566480-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566480"
+    },
+    {
+      "start": "2026-03-04T14:00:00",
+      "end": "2026-03-04T16:00:00",
+      "uid": "566615-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1565 Hybriditila Kielikeskus\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566615"
+    },
+    {
+      "start": "2026-03-05T08:00:00",
+      "end": "2026-03-05T10:00:00",
+      "uid": "555548-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555548"
+    },
+    {
+      "start": "2026-03-05T08:00:00",
+      "end": "2026-03-05T10:00:00",
+      "uid": "563480-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 7332 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563480"
+    },
+    {
+      "start": "2026-03-05T10:00:00",
+      "end": "2026-03-05T12:00:00",
+      "uid": "536929-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 536929"
+    },
+    {
+      "start": "2026-03-05T10:00:00",
+      "end": "2026-03-05T12:00:00",
+      "uid": "537546-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 2209 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537546"
+    },
+    {
+      "start": "2026-03-05T10:00:00",
+      "end": "2026-03-05T12:00:00",
+      "uid": "557146-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1303 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557146"
+    },
+    {
+      "start": "2026-03-05T12:00:00",
+      "end": "2026-03-05T14:00:00",
+      "uid": "566501-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566501"
+    },
+    {
+      "start": "2026-03-05T14:00:00",
+      "end": "2026-03-05T16:00:00",
+      "uid": "537084-1372700886-0@timeedit.com",
+      "summary": "A350A3000 Advanced Topics in Business Ethics\\, 1318 Auditorio\\, A350A3000 1 LPR Luentoja kaikille\\, Albareda Laura",
+      "location": "",
+      "description": "ID 537084"
+    },
+    {
+      "start": "2026-03-05T14:00:00",
+      "end": "2026-03-05T16:00:00",
+      "uid": "562288-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562288"
+    },
+    {
+      "start": "2026-03-06T08:00:00",
+      "end": "2026-03-06T16:00:00",
+      "uid": "536884-1372700886-0@timeedit.com",
+      "summary": "A330A0010 Contemporary Issues in International Marketing\\, Virtuaalinen luokka Virtual classroom\\, A330A0010 1 Virtuaaliluennot\\, Cadogan John",
+      "location": "",
+      "description": "ID 536884"
+    },
+    {
+      "start": "2026-03-06T10:00:00",
+      "end": "2026-03-06T12:00:00",
+      "uid": "566473-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566473"
+    },
+    {
+      "start": "2026-03-06T10:00:00",
+      "end": "2026-03-06T12:00:00",
+      "uid": "566636-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566636"
+    },
+    {
+      "start": "2026-03-06T10:00:00",
+      "end": "2026-03-06T12:00:00",
+      "uid": "537547-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 2209 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537547"
+    },
+    {
+      "start": "2026-03-06T10:00:00",
+      "end": "2026-03-06T14:00:00",
+      "uid": "541961-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, 3310 Auditorio\\, BH60A5701 1 LPR Seminaaritilaisuuksia\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541961"
+    },
+    {
+      "start": "2026-03-06T12:00:00",
+      "end": "2026-03-06T14:00:00",
+      "uid": "566487-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566487"
+    },
+    {
+      "start": "2026-03-06T12:00:00",
+      "end": "2026-03-06T14:00:00",
+      "uid": "566621-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1304 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566621"
+    },
+    {
+      "start": "2026-03-06T12:00:00",
+      "end": "2026-03-06T14:00:00",
+      "uid": "555712-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555712"
+    },
+    {
+      "start": "2026-03-06T14:00:00",
+      "end": "2026-03-06T16:00:00",
+      "uid": "562271-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562271"
+    },
+    {
+      "start": "2026-03-09T10:00:00",
+      "end": "2026-03-09T12:00:00",
+      "uid": "566495-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566495"
+    },
+    {
+      "start": "2026-03-09T10:00:00",
+      "end": "2026-03-09T12:00:00",
+      "uid": "567034-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_A127 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 567034"
+    },
+    {
+      "start": "2026-03-09T10:00:00",
+      "end": "2026-03-09T12:00:00",
+      "uid": "541895-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Hynynen Katja\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541895"
+    },
+    {
+      "start": "2026-03-09T10:00:00",
+      "end": "2026-03-09T12:00:00",
+      "uid": "541926-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541926"
+    },
+    {
+      "start": "2026-03-09T10:00:00",
+      "end": "2026-03-09T12:00:00",
+      "uid": "557147-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557147"
+    },
+    {
+      "start": "2026-03-09T12:00:00",
+      "end": "2026-03-09T14:00:00",
+      "uid": "562693-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1368 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562693"
+    },
+    {
+      "start": "2026-03-10T08:00:00",
+      "end": "2026-03-10T10:00:00",
+      "uid": "557176-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557176"
+    },
+    {
+      "start": "2026-03-10T08:00:00",
+      "end": "2026-03-10T10:00:00",
+      "uid": "563483-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563483"
+    },
+    {
+      "start": "2026-03-10T10:00:00",
+      "end": "2026-03-10T12:00:00",
+      "uid": "566630-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566630"
+    },
+    {
+      "start": "2026-03-10T12:00:00",
+      "end": "2026-03-10T14:00:00",
+      "uid": "555737-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555737"
+    },
+    {
+      "start": "2026-03-10T12:00:00",
+      "end": "2026-03-10T16:00:00",
+      "uid": "544200-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544200"
+    },
+    {
+      "start": "2026-03-10T14:00:00",
+      "end": "2026-03-10T16:00:00",
+      "uid": "562289-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562289"
+    },
+    {
+      "start": "2026-03-11T08:00:00",
+      "end": "2026-03-11T10:00:00",
+      "uid": "562694-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1566 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562694"
+    },
+    {
+      "start": "2026-03-11T08:00:00",
+      "end": "2026-03-11T14:00:00",
+      "uid": "566378-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3006 Kauppatieteen asiantuntijaviestintä\\, 1447 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566378"
+    },
+    {
+      "start": "2026-03-11T09:00:00",
+      "end": "2026-03-11T10:30:00",
+      "uid": "559971-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, Virtuaalinen luokka Virtual classroom\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 559971"
+    },
+    {
+      "start": "2026-03-11T10:00:00",
+      "end": "2026-03-11T12:00:00",
+      "uid": "566467-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566467"
+    },
+    {
+      "start": "2026-03-11T10:00:00",
+      "end": "2026-03-11T12:00:00",
+      "uid": "550259-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550259"
+    },
+    {
+      "start": "2026-03-11T10:00:00",
+      "end": "2026-03-11T12:00:00",
+      "uid": "545533-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545533"
+    },
+    {
+      "start": "2026-03-11T12:00:00",
+      "end": "2026-03-11T14:00:00",
+      "uid": "566616-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1303 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566616"
+    },
+    {
+      "start": "2026-03-11T12:00:00",
+      "end": "2026-03-11T15:00:00",
+      "uid": "553470-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553470"
+    },
+    {
+      "start": "2026-03-11T14:00:00",
+      "end": "2026-03-11T16:00:00",
+      "uid": "566481-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566481"
+    },
+    {
+      "start": "2026-03-12T08:00:00",
+      "end": "2026-03-12T10:00:00",
+      "uid": "555549-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555549"
+    },
+    {
+      "start": "2026-03-12T09:00:00",
+      "end": "2026-03-12T12:00:00",
+      "uid": "566373-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3007 Kauppatieteen asiantuntijaviestintä\\, Zoom\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566373"
+    },
+    {
+      "start": "2026-03-12T10:00:00",
+      "end": "2026-03-12T12:00:00",
+      "uid": "567035-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C248 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 567035"
+    },
+    {
+      "start": "2026-03-12T10:00:00",
+      "end": "2026-03-12T12:00:00",
+      "uid": "550252-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550252"
+    },
+    {
+      "start": "2026-03-12T10:00:00",
+      "end": "2026-03-12T12:00:00",
+      "uid": "537548-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 2209 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537548"
+    },
+    {
+      "start": "2026-03-12T12:00:00",
+      "end": "2026-03-12T14:00:00",
+      "uid": "566502-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566502"
+    },
+    {
+      "start": "2026-03-12T14:00:00",
+      "end": "2026-03-12T16:00:00",
+      "uid": "548747-1372700886-0@timeedit.com",
+      "summary": "A350A3000 Advanced Topics in Business Ethics\\, 1318 Auditorio\\, A350A3000 1 LPR Luentoja kaikille\\, Albareda Laura",
+      "location": "",
+      "description": "ID 548747"
+    },
+    {
+      "start": "2026-03-12T14:00:00",
+      "end": "2026-03-12T16:00:00",
+      "uid": "541971-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541971"
+    },
+    {
+      "start": "2026-03-12T14:00:00",
+      "end": "2026-03-12T16:00:00",
+      "uid": "562275-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562275"
+    },
+    {
+      "start": "2026-03-13T08:00:00",
+      "end": "2026-03-13T16:00:00",
+      "uid": "543762-1372700886-0@timeedit.com",
+      "summary": "A330A0010 Contemporary Issues in International Marketing\\, Virtuaalinen luokka Virtual classroom\\, A330A0010 1 Virtuaaliluennot\\, Cadogan John",
+      "location": "",
+      "description": "ID 543762"
+    },
+    {
+      "start": "2026-03-13T10:00:00",
+      "end": "2026-03-13T12:00:00",
+      "uid": "566474-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566474"
+    },
+    {
+      "start": "2026-03-13T10:00:00",
+      "end": "2026-03-13T12:00:00",
+      "uid": "566637-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566637"
+    },
+    {
+      "start": "2026-03-13T10:00:00",
+      "end": "2026-03-13T12:00:00",
+      "uid": "537549-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 2209 Luentosali\\, A250A2100 1 LPR Luennot ja harjoitukset\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537549"
+    },
+    {
+      "start": "2026-03-13T12:00:00",
+      "end": "2026-03-13T14:00:00",
+      "uid": "566488-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566488"
+    },
+    {
+      "start": "2026-03-13T12:00:00",
+      "end": "2026-03-13T14:00:00",
+      "uid": "566622-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566622"
+    },
+    {
+      "start": "2026-03-13T12:00:00",
+      "end": "2026-03-13T14:00:00",
+      "uid": "555713-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555713"
+    },
+    {
+      "start": "2026-03-13T13:00:00",
+      "end": "2026-03-13T16:00:00",
+      "uid": "539448-1372700886-0@timeedit.com",
+      "summary": "CT80A0200 Software Business\\, M19_A122 Seminaaritila\\, CT80A0200 1 LAHTI Luentoja kaikille\\, Saltan Andrey\\, lut-tr-TiDSPMB_EM1\\, lut-tr-TiDSPMB_KJ1",
+      "location": "",
+      "description": "ID 539448"
+    },
+    {
+      "start": "2026-03-16T10:00:00",
+      "end": "2026-03-16T12:00:00",
+      "uid": "555356-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555356"
+    },
+    {
+      "start": "2026-03-16T10:00:00",
+      "end": "2026-03-16T12:00:00",
+      "uid": "566496-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566496"
+    },
+    {
+      "start": "2026-03-16T10:00:00",
+      "end": "2026-03-16T12:00:00",
+      "uid": "537329-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Kosonen Antti\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 537329"
+    },
+    {
+      "start": "2026-03-16T10:00:00",
+      "end": "2026-03-16T12:00:00",
+      "uid": "541929-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541929"
+    },
+    {
+      "start": "2026-03-16T10:00:00",
+      "end": "2026-03-16T12:00:00",
+      "uid": "555599-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555599"
+    },
+    {
+      "start": "2026-03-16T12:00:00",
+      "end": "2026-03-16T14:00:00",
+      "uid": "562697-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1368 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562697"
+    },
+    {
+      "start": "2026-03-16T12:00:00",
+      "end": "2026-03-16T14:00:00",
+      "uid": "557148-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1447 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557148"
+    },
+    {
+      "start": "2026-03-16T12:00:00",
+      "end": "2026-03-16T18:00:00",
+      "uid": "543777-1372700886-0@timeedit.com",
+      "summary": "A330A0800 Digital Marketing in Action\\, 2305 Luentosali\\, A330A0800 1 LPR Luentoja kaikille\\, Uzhegova Maria",
+      "location": "",
+      "description": "ID 543777"
+    },
+    {
+      "start": "2026-03-16T14:00:00",
+      "end": "2026-03-16T16:00:00",
+      "uid": "562290-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562290"
+    },
+    {
+      "start": "2026-03-17T08:00:00",
+      "end": "2026-03-17T10:00:00",
+      "uid": "563478-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563478"
+    },
+    {
+      "start": "2026-03-17T10:00:00",
+      "end": "2026-03-17T12:00:00",
+      "uid": "566631-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566631"
+    },
+    {
+      "start": "2026-03-17T12:00:00",
+      "end": "2026-03-17T16:00:00",
+      "uid": "544201-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544201"
+    },
+    {
+      "start": "2026-03-17T12:00:00",
+      "end": "2026-03-17T16:00:00",
+      "uid": "537281-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliharjoitukset\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537281"
+    },
+    {
+      "start": "2026-03-18T08:00:00",
+      "end": "2026-03-18T10:00:00",
+      "uid": "562700-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1544 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562700"
+    },
+    {
+      "start": "2026-03-18T08:00:00",
+      "end": "2026-03-18T14:00:00",
+      "uid": "566379-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3006 Kauppatieteen asiantuntijaviestintä\\, 1303 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566379"
+    },
+    {
+      "start": "2026-03-18T09:00:00",
+      "end": "2026-03-18T10:30:00",
+      "uid": "559972-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, 3306 Luentosali\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 559972"
+    },
+    {
+      "start": "2026-03-18T10:00:00",
+      "end": "2026-03-18T12:00:00",
+      "uid": "566468-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566468"
+    },
+    {
+      "start": "2026-03-18T10:00:00",
+      "end": "2026-03-18T12:00:00",
+      "uid": "550260-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550260"
+    },
+    {
+      "start": "2026-03-18T10:00:00",
+      "end": "2026-03-18T12:00:00",
+      "uid": "545534-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545534"
+    },
+    {
+      "start": "2026-03-18T12:00:00",
+      "end": "2026-03-18T14:00:00",
+      "uid": "566617-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566617"
+    },
+    {
+      "start": "2026-03-18T12:00:00",
+      "end": "2026-03-18T14:00:00",
+      "uid": "537565-1372700886-0@timeedit.com",
+      "summary": "A130A0030 Introduction to Business Studies\\, 7339 Luentosali\\, A130A0030 1 LPR Luennot ja harjoitukset\\, Kohonen Jani\\, lut-tr-KaBSc_SIB1",
+      "location": "",
+      "description": "ID 537565"
+    },
+    {
+      "start": "2026-03-18T12:00:00",
+      "end": "2026-03-18T15:00:00",
+      "uid": "553471-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553471"
+    },
+    {
+      "start": "2026-03-18T14:00:00",
+      "end": "2026-03-18T16:00:00",
+      "uid": "566482-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566482"
+    },
+    {
+      "start": "2026-03-18T16:00:00",
+      "end": "2026-03-18T18:00:00",
+      "uid": "555361-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_A127 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555361"
+    },
+    {
+      "start": "2026-03-19T08:00:00",
+      "end": "2026-03-19T10:00:00",
+      "uid": "555550-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555550"
+    },
+    {
+      "start": "2026-03-19T08:00:00",
+      "end": "2026-03-19T10:00:00",
+      "uid": "563481-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 7332 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563481"
+    },
+    {
+      "start": "2026-03-19T08:00:00",
+      "end": "2026-03-19T16:00:00",
+      "uid": "566380-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3006 Kauppatieteen asiantuntijaviestintä\\, 1567+1568 Oppimistila\\, Kokkonen Sampo\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566380"
+    },
+    {
+      "start": "2026-03-19T10:00:00",
+      "end": "2026-03-19T12:00:00",
+      "uid": "550253-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550253"
+    },
+    {
+      "start": "2026-03-19T10:00:00",
+      "end": "2026-03-19T12:00:00",
+      "uid": "563434-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563434"
+    },
+    {
+      "start": "2026-03-19T12:00:00",
+      "end": "2026-03-19T14:00:00",
+      "uid": "566503-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566503"
+    },
+    {
+      "start": "2026-03-19T12:00:00",
+      "end": "2026-03-19T14:00:00",
+      "uid": "557177-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1303 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557177"
+    },
+    {
+      "start": "2026-03-19T14:00:00",
+      "end": "2026-03-19T16:00:00",
+      "uid": "541972-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliluennot\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 541972"
+    },
+    {
+      "start": "2026-03-19T14:00:00",
+      "end": "2026-03-19T16:00:00",
+      "uid": "562276-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562276"
+    },
+    {
+      "start": "2026-03-20T08:00:00",
+      "end": "2026-03-20T14:00:00",
+      "uid": "543763-1372700886-0@timeedit.com",
+      "summary": "A330A0010 Contemporary Issues in International Marketing\\, Virtuaalinen luokka Virtual classroom\\, A330A0010 1 Virtuaaliluennot\\, Cadogan John",
+      "location": "",
+      "description": "ID 543763"
+    },
+    {
+      "start": "2026-03-20T10:00:00",
+      "end": "2026-03-20T12:00:00",
+      "uid": "566475-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566475"
+    },
+    {
+      "start": "2026-03-20T10:00:00",
+      "end": "2026-03-20T12:00:00",
+      "uid": "566638-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566638"
+    },
+    {
+      "start": "2026-03-20T12:00:00",
+      "end": "2026-03-20T14:00:00",
+      "uid": "566489-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566489"
+    },
+    {
+      "start": "2026-03-20T12:00:00",
+      "end": "2026-03-20T14:00:00",
+      "uid": "566623-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1566 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566623"
+    },
+    {
+      "start": "2026-03-20T12:00:00",
+      "end": "2026-03-20T14:00:00",
+      "uid": "555714-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555714"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "555357-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555357"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "566497-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566497"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "562705-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1368 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562705"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "541930-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541930"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "541932-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Kosonen Antti\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541932"
+    },
+    {
+      "start": "2026-03-23T10:00:00",
+      "end": "2026-03-23T12:00:00",
+      "uid": "557149-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557149"
+    },
+    {
+      "start": "2026-03-24T08:00:00",
+      "end": "2026-03-24T10:00:00",
+      "uid": "563482-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563482"
+    },
+    {
+      "start": "2026-03-24T10:00:00",
+      "end": "2026-03-24T12:00:00",
+      "uid": "566632-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566632"
+    },
+    {
+      "start": "2026-03-24T10:00:00",
+      "end": "2026-03-24T12:00:00",
+      "uid": "557178-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1304 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557178"
+    },
+    {
+      "start": "2026-03-24T12:00:00",
+      "end": "2026-03-24T14:00:00",
+      "uid": "562707-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1368 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562707"
+    },
+    {
+      "start": "2026-03-24T12:00:00",
+      "end": "2026-03-24T14:00:00",
+      "uid": "555738-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555738"
+    },
+    {
+      "start": "2026-03-24T12:00:00",
+      "end": "2026-03-24T16:00:00",
+      "uid": "544202-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544202"
+    },
+    {
+      "start": "2026-03-24T14:00:00",
+      "end": "2026-03-24T16:00:00",
+      "uid": "562291-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562291"
+    },
+    {
+      "start": "2026-03-25T08:00:00",
+      "end": "2026-03-25T16:00:00",
+      "uid": "566370-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3007 Kauppatieteen asiantuntijaviestintä\\, 1303 Oppimistila\\, Kokkonen Sampo\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566370"
+    },
+    {
+      "start": "2026-03-25T09:00:00",
+      "end": "2026-03-25T10:00:00",
+      "uid": "565826-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, Virtuaalinen luokka Virtual classroom\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 565826"
+    },
+    {
+      "start": "2026-03-25T10:00:00",
+      "end": "2026-03-25T12:00:00",
+      "uid": "555362-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_A127 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555362"
+    },
+    {
+      "start": "2026-03-25T10:00:00",
+      "end": "2026-03-25T12:00:00",
+      "uid": "566469-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566469"
+    },
+    {
+      "start": "2026-03-25T10:00:00",
+      "end": "2026-03-25T12:00:00",
+      "uid": "550261-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550261"
+    },
+    {
+      "start": "2026-03-25T10:00:00",
+      "end": "2026-03-25T12:00:00",
+      "uid": "545535-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545535"
+    },
+    {
+      "start": "2026-03-25T12:00:00",
+      "end": "2026-03-25T14:00:00",
+      "uid": "566618-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1304 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566618"
+    },
+    {
+      "start": "2026-03-25T12:00:00",
+      "end": "2026-03-25T15:00:00",
+      "uid": "553472-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553472"
+    },
+    {
+      "start": "2026-03-25T13:00:00",
+      "end": "2026-03-25T16:00:00",
+      "uid": "537223-1372700886-0@timeedit.com",
+      "summary": "BH60A5701 Business\\, society and sustainability\\, Virtuaalinen luokka Virtual classroom\\, BH60A5701 1 Virtuaaliharjoitukset\\, Linnanen Lassi\\, Jouzi Fatemeh\\, Kainiemi Laura\\, lut-tr-YmDCIR_EM1\\, lut-tr-YmDCIR_KJ1\\, lut-tr-YmDSSS_EM1\\, lut-tr-YmDSSS_KJ1",
+      "location": "",
+      "description": "ID 537223"
+    },
+    {
+      "start": "2026-03-25T14:00:00",
+      "end": "2026-03-25T16:00:00",
+      "uid": "566483-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566483"
+    },
+    {
+      "start": "2026-03-26T08:00:00",
+      "end": "2026-03-26T10:00:00",
+      "uid": "555551-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555551"
+    },
+    {
+      "start": "2026-03-26T08:00:00",
+      "end": "2026-03-26T10:00:00",
+      "uid": "563479-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 7332 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563479"
+    },
+    {
+      "start": "2026-03-26T08:00:00",
+      "end": "2026-03-26T14:00:00",
+      "uid": "566384-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3007 Kauppatieteen asiantuntijaviestintä\\, 1567+1568 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566384"
+    },
+    {
+      "start": "2026-03-26T10:00:00",
+      "end": "2026-03-26T12:00:00",
+      "uid": "550254-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550254"
+    },
+    {
+      "start": "2026-03-26T12:00:00",
+      "end": "2026-03-26T14:00:00",
+      "uid": "566504-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566504"
+    },
+    {
+      "start": "2026-03-26T12:00:00",
+      "end": "2026-03-26T14:00:00",
+      "uid": "537566-1372700886-0@timeedit.com",
+      "summary": "A130A0030 Introduction to Business Studies\\, 7441 Luentosali\\, A130A0030 1 LPR Harjoitusryhmä 1\\, Mortazavibabaheidari Sina\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB1",
+      "location": "",
+      "description": "ID 537566"
+    },
+    {
+      "start": "2026-03-26T14:00:00",
+      "end": "2026-03-26T16:00:00",
+      "uid": "562277-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562277"
+    },
+    {
+      "start": "2026-03-26T16:00:00",
+      "end": "2026-03-26T20:00:00",
+      "uid": "511089-1372700886-0@timeedit.com",
+      "summary": "BM20A9200 Mathematics A\\, HDD5030 Data Structures and Algorithms (HDD)\\, LUT Tentti Lahti\\, M19_AUD2B Auditorio 2\\, M19_D247 Oppimistila\\, M19_D250 Oppimistila",
+      "location": "",
+      "description": "ID 511089"
+    },
+    {
+      "start": "2026-03-27T10:00:00",
+      "end": "2026-03-27T12:00:00",
+      "uid": "566476-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566476"
+    },
+    {
+      "start": "2026-03-27T10:00:00",
+      "end": "2026-03-27T12:00:00",
+      "uid": "566639-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566639"
+    },
+    {
+      "start": "2026-03-27T10:00:00",
+      "end": "2026-03-27T12:00:00",
+      "uid": "537567-1372700886-0@timeedit.com",
+      "summary": "A130A0030 Introduction to Business Studies\\, 7441 Luentosali\\, A130A0030 1 LPR Harjoitusryhmä 2\\, Mortazavibabaheidari Sina\\, Igboanua Chukwuka\\, Morris Caitlin\\, lut-tr-KaBSc_SIB1",
+      "location": "",
+      "description": "ID 537567"
+    },
+    {
+      "start": "2026-03-27T12:00:00",
+      "end": "2026-03-27T14:00:00",
+      "uid": "566490-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566490"
+    },
+    {
+      "start": "2026-03-27T12:00:00",
+      "end": "2026-03-27T14:00:00",
+      "uid": "566624-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566624"
+    },
+    {
+      "start": "2026-03-27T12:00:00",
+      "end": "2026-03-27T14:00:00",
+      "uid": "555715-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555715"
+    },
+    {
+      "start": "2026-03-30T10:00:00",
+      "end": "2026-03-30T12:00:00",
+      "uid": "555358-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555358"
+    },
+    {
+      "start": "2026-03-30T10:00:00",
+      "end": "2026-03-30T12:00:00",
+      "uid": "566498-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566498"
+    },
+    {
+      "start": "2026-03-30T10:00:00",
+      "end": "2026-03-30T12:00:00",
+      "uid": "541931-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, Virtuaalinen luokka Virtual classroom\\, BL40A2601 1 LAHTI Luentoja kaikille",
+      "location": "",
+      "description": "ID 541931"
+    },
+    {
+      "start": "2026-03-30T10:00:00",
+      "end": "2026-03-30T12:00:00",
+      "uid": "541933-1372700886-0@timeedit.com",
+      "summary": "BL40A2601 Wind Power and Solar Energy Technology and Business\\, 2209 Luentosali\\, BL40A2601 1 LPR Luentoja kaikille\\, Kosonen Antti\\, lut-tr-SaKSate3\\, lut-tr-LESKBSc  EnBScSET 3",
+      "location": "",
+      "description": "ID 541933"
+    },
+    {
+      "start": "2026-03-30T10:00:00",
+      "end": "2026-03-30T12:00:00",
+      "uid": "555600-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555600"
+    },
+    {
+      "start": "2026-03-30T12:00:00",
+      "end": "2026-03-30T14:00:00",
+      "uid": "562709-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1368 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562709"
+    },
+    {
+      "start": "2026-03-30T12:00:00",
+      "end": "2026-03-30T14:00:00",
+      "uid": "557150-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3049 English for Professional Development (Business)\\, 1370 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557150"
+    },
+    {
+      "start": "2026-03-30T14:00:00",
+      "end": "2026-03-30T16:00:00",
+      "uid": "562292-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1565 Hybriditila Kielikeskus\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562292"
+    },
+    {
+      "start": "2026-03-31T08:00:00",
+      "end": "2026-03-31T10:00:00",
+      "uid": "563484-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563484"
+    },
+    {
+      "start": "2026-03-31T10:00:00",
+      "end": "2026-03-31T12:00:00",
+      "uid": "566477-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566477"
+    },
+    {
+      "start": "2026-03-31T10:00:00",
+      "end": "2026-03-31T12:00:00",
+      "uid": "566633-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566633"
+    },
+    {
+      "start": "2026-03-31T10:00:00",
+      "end": "2026-03-31T12:00:00",
+      "uid": "555716-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555716"
+    },
+    {
+      "start": "2026-03-31T12:00:00",
+      "end": "2026-03-31T14:00:00",
+      "uid": "566491-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566491"
+    },
+    {
+      "start": "2026-03-31T12:00:00",
+      "end": "2026-03-31T16:00:00",
+      "uid": "544203-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544203"
+    },
+    {
+      "start": "2026-04-01T09:00:00",
+      "end": "2026-04-01T10:30:00",
+      "uid": "565827-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, 3306 Luentosali\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 565827"
+    },
+    {
+      "start": "2026-04-01T10:00:00",
+      "end": "2026-04-01T12:00:00",
+      "uid": "555363-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_A127 Oppimistila\\, Nurminen Aija\\, Luennot\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555363"
+    },
+    {
+      "start": "2026-04-01T10:00:00",
+      "end": "2026-04-01T12:00:00",
+      "uid": "566470-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566470"
+    },
+    {
+      "start": "2026-04-01T10:00:00",
+      "end": "2026-04-01T12:00:00",
+      "uid": "550262-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550262"
+    },
+    {
+      "start": "2026-04-01T10:00:00",
+      "end": "2026-04-01T12:00:00",
+      "uid": "545536-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545536"
+    },
+    {
+      "start": "2026-04-01T12:00:00",
+      "end": "2026-04-01T14:00:00",
+      "uid": "562710-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 8183+8184 Kabinetti\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562710"
+    },
+    {
+      "start": "2026-04-01T12:00:00",
+      "end": "2026-04-01T15:00:00",
+      "uid": "553473-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553473"
+    },
+    {
+      "start": "2026-04-01T14:00:00",
+      "end": "2026-04-01T16:00:00",
+      "uid": "566484-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566484"
+    },
+    {
+      "start": "2026-04-01T14:00:00",
+      "end": "2026-04-01T16:00:00",
+      "uid": "566627-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1565 Hybriditila Kielikeskus\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566627"
+    },
+    {
+      "start": "2026-04-02T08:00:00",
+      "end": "2026-04-02T10:00:00",
+      "uid": "566640-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566640"
+    },
+    {
+      "start": "2026-04-02T08:00:00",
+      "end": "2026-04-02T10:00:00",
+      "uid": "555552-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555552"
+    },
+    {
+      "start": "2026-04-02T10:00:00",
+      "end": "2026-04-02T12:00:00",
+      "uid": "550255-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550255"
+    },
+    {
+      "start": "2026-04-02T10:00:00",
+      "end": "2026-04-02T12:00:00",
+      "uid": "563435-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563435"
+    },
+    {
+      "start": "2026-04-02T12:00:00",
+      "end": "2026-04-02T14:00:00",
+      "uid": "566505-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566505"
+    },
+    {
+      "start": "2026-04-02T14:00:00",
+      "end": "2026-04-02T16:00:00",
+      "uid": "548748-1372700886-0@timeedit.com",
+      "summary": "A350A3000 Advanced Topics in Business Ethics\\, 1318 Auditorio\\, A350A3000 1 LPR Luentoja kaikille\\, Albareda Laura",
+      "location": "",
+      "description": "ID 548748"
+    },
+    {
+      "start": "2026-04-02T14:00:00",
+      "end": "2026-04-02T16:00:00",
+      "uid": "562278-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562278"
     },
     {
       "start": "2026-04-03T00:00:00",
       "end": "2026-04-03T00:00:00",
       "uid": "527587-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Pitkäperjantai",
       "location": "",
       "description": "05:00 - 19:00\\nID 527587"
     },
@@ -134,7 +3774,7 @@
       "start": "2026-04-05T00:00:00",
       "end": "2026-04-05T00:00:00",
       "uid": "527589-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Pääsiäispäivä",
       "location": "",
       "description": "05:00 - 19:00\\nID 527589"
     },
@@ -142,15 +3782,535 @@
       "start": "2026-04-06T00:00:00",
       "end": "2026-04-06T00:00:00",
       "uid": "527588-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "2. pääsiäispäivä",
       "location": "",
       "description": "05:00 - 19:00\\nID 527588"
+    },
+    {
+      "start": "2026-04-07T08:00:00",
+      "end": "2026-04-07T10:00:00",
+      "uid": "562293-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1566 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562293"
+    },
+    {
+      "start": "2026-04-07T08:00:00",
+      "end": "2026-04-07T10:00:00",
+      "uid": "563485-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563485"
+    },
+    {
+      "start": "2026-04-07T10:00:00",
+      "end": "2026-04-07T12:00:00",
+      "uid": "566499-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566499"
+    },
+    {
+      "start": "2026-04-07T10:00:00",
+      "end": "2026-04-07T12:00:00",
+      "uid": "566634-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566634"
+    },
+    {
+      "start": "2026-04-07T10:00:00",
+      "end": "2026-04-07T12:00:00",
+      "uid": "557180-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3048 English for Professional Development (Business)\\, 1304 Oppimistila\\, Etedali Mohammad\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 557180"
+    },
+    {
+      "start": "2026-04-07T12:00:00",
+      "end": "2026-04-07T14:00:00",
+      "uid": "555739-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555739"
+    },
+    {
+      "start": "2026-04-07T12:00:00",
+      "end": "2026-04-07T16:00:00",
+      "uid": "544204-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544204"
+    },
+    {
+      "start": "2026-04-08T08:00:00",
+      "end": "2026-04-08T10:00:00",
+      "uid": "562713-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1370 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562713"
+    },
+    {
+      "start": "2026-04-08T09:00:00",
+      "end": "2026-04-08T10:30:00",
+      "uid": "559973-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, 3306 Luentosali\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 559973"
+    },
+    {
+      "start": "2026-04-08T10:00:00",
+      "end": "2026-04-08T12:00:00",
+      "uid": "566471-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566471"
+    },
+    {
+      "start": "2026-04-08T10:00:00",
+      "end": "2026-04-08T12:00:00",
+      "uid": "550263-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550263"
+    },
+    {
+      "start": "2026-04-08T10:00:00",
+      "end": "2026-04-08T12:00:00",
+      "uid": "545537-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545537"
+    },
+    {
+      "start": "2026-04-08T12:00:00",
+      "end": "2026-04-08T15:00:00",
+      "uid": "553474-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553474"
+    },
+    {
+      "start": "2026-04-08T14:00:00",
+      "end": "2026-04-08T16:00:00",
+      "uid": "566485-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566485"
+    },
+    {
+      "start": "2026-04-08T14:00:00",
+      "end": "2026-04-08T16:00:00",
+      "uid": "566628-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566628"
+    },
+    {
+      "start": "2026-04-08T14:00:00",
+      "end": "2026-04-08T17:00:00",
+      "uid": "537550-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 3310 Auditorio\\, A250A2100 1 LPR Seminaaritilaisuuksia\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537550"
+    },
+    {
+      "start": "2026-04-09T08:00:00",
+      "end": "2026-04-09T10:00:00",
+      "uid": "555553-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555553"
+    },
+    {
+      "start": "2026-04-09T08:00:00",
+      "end": "2026-04-09T14:00:00",
+      "uid": "566385-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3007 Kauppatieteen asiantuntijaviestintä\\, 1567+1568 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566385"
+    },
+    {
+      "start": "2026-04-09T10:00:00",
+      "end": "2026-04-09T12:00:00",
+      "uid": "550256-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550256"
+    },
+    {
+      "start": "2026-04-09T12:00:00",
+      "end": "2026-04-09T14:00:00",
+      "uid": "566506-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566506"
+    },
+    {
+      "start": "2026-04-09T14:00:00",
+      "end": "2026-04-09T16:00:00",
+      "uid": "562279-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562279"
+    },
+    {
+      "start": "2026-04-09T14:00:00",
+      "end": "2026-04-09T18:00:00",
+      "uid": "548749-1372700886-0@timeedit.com",
+      "summary": "A350A3000 Advanced Topics in Business Ethics\\, 1318 Auditorio\\, A350A3000 1 LPR Luentoja kaikille\\, Albareda Laura",
+      "location": "",
+      "description": "ID 548749"
+    },
+    {
+      "start": "2026-04-10T10:00:00",
+      "end": "2026-04-10T12:00:00",
+      "uid": "566478-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566478"
+    },
+    {
+      "start": "2026-04-10T10:00:00",
+      "end": "2026-04-10T12:00:00",
+      "uid": "566641-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566641"
+    },
+    {
+      "start": "2026-04-10T10:00:00",
+      "end": "2026-04-10T12:00:00",
+      "uid": "562714-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1370 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562714"
+    },
+    {
+      "start": "2026-04-10T12:00:00",
+      "end": "2026-04-10T14:00:00",
+      "uid": "566492-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566492"
+    },
+    {
+      "start": "2026-04-10T12:00:00",
+      "end": "2026-04-10T14:00:00",
+      "uid": "555717-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555717"
+    },
+    {
+      "start": "2026-04-10T12:00:00",
+      "end": "2026-04-10T15:00:00",
+      "uid": "537551-1372700886-0@timeedit.com",
+      "summary": "A250A2100 Business Strategy\\, 3310 Auditorio\\, A250A2100 1 LPR Seminaaritilaisuuksia\\, Kimpimäki Jaan-Pauli\\, Igboanua Chukwuka\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 537551"
+    },
+    {
+      "start": "2026-04-13T10:00:00",
+      "end": "2026-04-13T12:00:00",
+      "uid": "566500-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566500"
+    },
+    {
+      "start": "2026-04-13T10:00:00",
+      "end": "2026-04-13T12:00:00",
+      "uid": "562266-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562266"
+    },
+    {
+      "start": "2026-04-13T12:00:00",
+      "end": "2026-04-13T14:00:00",
+      "uid": "562711-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 2303 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562711"
+    },
+    {
+      "start": "2026-04-13T12:00:00",
+      "end": "2026-04-13T14:00:00",
+      "uid": "562282-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562282"
+    },
+    {
+      "start": "2026-04-14T08:00:00",
+      "end": "2026-04-14T10:00:00",
+      "uid": "563486-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3024 Svenska i arbetslivet (handel)\\, skriftlig\\, 1326 Luentosali\\, Jurvanen Anni\\, lut-tr-TuKTUTA1\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563486"
+    },
+    {
+      "start": "2026-04-14T08:00:00",
+      "end": "2026-04-14T12:00:00",
+      "uid": "567036-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Tentti\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 567036"
+    },
+    {
+      "start": "2026-04-14T10:00:00",
+      "end": "2026-04-14T12:00:00",
+      "uid": "566635-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566635"
+    },
+    {
+      "start": "2026-04-14T11:00:00",
+      "end": "2026-04-14T16:00:00",
+      "uid": "537091-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliluennot\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537091"
+    },
+    {
+      "start": "2026-04-14T12:00:00",
+      "end": "2026-04-14T14:00:00",
+      "uid": "562294-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1566 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562294"
+    },
+    {
+      "start": "2026-04-14T12:00:00",
+      "end": "2026-04-14T16:00:00",
+      "uid": "544205-1372700886-0@timeedit.com",
+      "summary": "A130A0420 Research Methods in Business Studies\\, 7337 Mikroluokka\\, A130A0420 1 LPR Luennot ja harjoitukset\\, Lahdenranta Kristiina\\, lut-tr-KaBSc_SIB2",
+      "location": "",
+      "description": "ID 544205"
+    },
+    {
+      "start": "2026-04-15T09:30:00",
+      "end": "2026-04-15T14:00:00",
+      "uid": "560304-1372700886-0@timeedit.com",
+      "summary": "CS30AJ140 Creating science-driven ventures: Turning scientific knowledge into business\\, CS30AJ140 1 LPR Luentoja kaikille\\, Myers Alexander",
+      "location": "",
+      "description": "ID 560304"
+    },
+    {
+      "start": "2026-04-15T10:00:00",
+      "end": "2026-04-15T12:00:00",
+      "uid": "566472-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566472"
+    },
+    {
+      "start": "2026-04-15T10:00:00",
+      "end": "2026-04-15T12:00:00",
+      "uid": "550264-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550264"
+    },
+    {
+      "start": "2026-04-15T10:00:00",
+      "end": "2026-04-15T12:00:00",
+      "uid": "545538-1372700886-0@timeedit.com",
+      "summary": "CT70A9410 Business Strategy in Digital Economy\\, 1318 Auditorio\\, CT70A9410 1 LPR Luentoja kaikille\\, Hina Maryam\\, lut-tr-TiDSEDT_KJ1",
+      "location": "",
+      "description": "ID 545538"
+    },
+    {
+      "start": "2026-04-15T10:00:00",
+      "end": "2026-04-15T14:00:00",
+      "uid": "555366-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3043 Finnish 4\\, M19_C250 Hybriditila Kielikeskus\\, Nurminen Aija\\, Tentti\\, KKIE25LABH\\, KKIE25LUTH\\, LLTIIB25S",
+      "location": "",
+      "description": "ID 555366"
+    },
+    {
+      "start": "2026-04-15T11:00:00",
+      "end": "2026-04-15T16:00:00",
+      "uid": "537092-1372700886-0@timeedit.com",
+      "summary": "A350A0551 Project Course on Sustainable Business\\, Virtuaalinen luokka Virtual classroom\\, A350A0551 1 Virtuaaliluennot\\, Albareda Laura\\, Kimpimäki Jaan-Pauli",
+      "location": "",
+      "description": "ID 537092"
+    },
+    {
+      "start": "2026-04-15T12:00:00",
+      "end": "2026-04-15T14:00:00",
+      "uid": "566619-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566619"
+    },
+    {
+      "start": "2026-04-15T12:00:00",
+      "end": "2026-04-15T14:00:00",
+      "uid": "562712-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3047 Finnish 4\\, 1447 Oppimistila\\, Saarnisto Tarja\\, Harjoitukset 1\\, KKIE25LABH\\, KKIE25LUTH\\, LLPRIB25S\\, LLPRHOMA25S",
+      "location": "",
+      "description": "ID 562712"
+    },
+    {
+      "start": "2026-04-15T12:00:00",
+      "end": "2026-04-15T14:00:00",
+      "uid": "566783-1372700886-0@timeedit.com",
+      "summary": "KS00CA42-3020 Tieteellinen kirjoittaminen (kauppa)\\, Verkkoluento\\, Laihanen Esa\\, Verkkoluento 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566783"
+    },
+    {
+      "start": "2026-04-15T12:00:00",
+      "end": "2026-04-15T15:00:00",
+      "uid": "553475-1372700886-0@timeedit.com",
+      "summary": "A220A0752 Analytics for Business\\, Virtuaalinen luokka Virtual classroom\\, A220A0752 1 LPR Harjoituksia kaikille\\, Morreale Azzurra\\, lut-tr-KaMMBAN_1\\, lut-tr-KaMMSF_1",
+      "location": "",
+      "description": "ID 553475"
+    },
+    {
+      "start": "2026-04-15T14:00:00",
+      "end": "2026-04-15T16:00:00",
+      "uid": "566486-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566486"
+    },
+    {
+      "start": "2026-04-16T08:00:00",
+      "end": "2026-04-16T10:00:00",
+      "uid": "555554-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3004 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555554"
+    },
+    {
+      "start": "2026-04-16T08:00:00",
+      "end": "2026-04-16T14:00:00",
+      "uid": "566381-1372700886-0@timeedit.com",
+      "summary": "KS00DF95-3006 Kauppatieteen asiantuntijaviestintä\\, 1567+1568 Oppimistila\\, Niskanen Elina\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566381"
+    },
+    {
+      "start": "2026-04-16T10:00:00",
+      "end": "2026-04-16T12:00:00",
+      "uid": "550257-1372700886-0@timeedit.com",
+      "summary": "A240A0020 Optimization in Business and Industry\\, 7334 Mikroluokka\\, A240A0020 1 LPR Harjoituksia kaikille\\, Bhat Shahid",
+      "location": "",
+      "description": "ID 550257"
+    },
+    {
+      "start": "2026-04-16T10:00:00",
+      "end": "2026-04-16T12:00:00",
+      "uid": "563436-1372700886-0@timeedit.com",
+      "summary": "KE00BZ84-3050 English for Professional Development (Business)\\, 1566 Oppimistila\\, Kivistö Marianna\\, Harjoitukset\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 563436"
+    },
+    {
+      "start": "2026-04-16T10:00:00",
+      "end": "2026-04-16T12:00:00",
+      "uid": "555718-1372700886-0@timeedit.com",
+      "summary": "KE00DA18-3003 English for International Business\\, 1565 Hybriditila Kielikeskus\\, Etedali Mohammad\\, lut-tr-KaBSc_SIB1\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 555718"
+    },
+    {
+      "start": "2026-04-16T12:00:00",
+      "end": "2026-04-16T14:00:00",
+      "uid": "566507-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3042 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566507"
+    },
+    {
+      "start": "2026-04-16T12:00:00",
+      "end": "2026-04-16T14:00:00",
+      "uid": "562284-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3022 Svenska i arbetslivet (handel)\\, skriftlig\\, 1544 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562284"
+    },
+    {
+      "start": "2026-04-17T10:00:00",
+      "end": "2026-04-17T12:00:00",
+      "uid": "566479-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3041 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566479"
+    },
+    {
+      "start": "2026-04-17T10:00:00",
+      "end": "2026-04-17T12:00:00",
+      "uid": "566642-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3044 Finnish 4\\, Verkkoluento\\, Erdmann Cornelia\\, Verkkoluento 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566642"
+    },
+    {
+      "start": "2026-04-17T12:00:00",
+      "end": "2026-04-17T14:00:00",
+      "uid": "566493-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3045 Finnish 4\\, Verkkoluento\\, Karjunen Minna\\, Luennot 1\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566493"
+    },
+    {
+      "start": "2026-04-17T12:00:00",
+      "end": "2026-04-17T14:00:00",
+      "uid": "566625-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1544 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566625"
+    },
+    {
+      "start": "2026-04-17T13:00:00",
+      "end": "2026-04-17T16:00:00",
+      "uid": "539449-1372700886-0@timeedit.com",
+      "summary": "CT80A0200 Software Business\\, M19_A122 Seminaaritila\\, CT80A0200 1 LAHTI Luentoja kaikille\\, Saltan Andrey\\, lut-tr-TiDSPMB_EM1\\, lut-tr-TiDSPMB_KJ1",
+      "location": "",
+      "description": "ID 539449"
+    },
+    {
+      "start": "2026-04-20T12:00:00",
+      "end": "2026-04-20T14:00:00",
+      "uid": "562295-1372700886-0@timeedit.com",
+      "summary": "KR00DA10-3023 Svenska i arbetslivet (handel)\\, skriftlig\\, 1566 Oppimistila\\, Naalisvaara-Jokinen Merja\\, Luennot 1\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 562295"
+    },
+    {
+      "start": "2026-04-22T12:00:00",
+      "end": "2026-04-22T14:00:00",
+      "uid": "566620-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1370 Oppimistila\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566620"
+    },
+    {
+      "start": "2026-04-24T12:00:00",
+      "end": "2026-04-24T14:00:00",
+      "uid": "566626-1372700886-0@timeedit.com",
+      "summary": "K200CH63-3046 Finnish 4\\, 1565 Hybriditila Kielikeskus\\, Paunonen Sanna\\, Oppitunti\\, KKIE25LABH\\, KKIE25LUTH",
+      "location": "",
+      "description": "ID 566626"
+    },
+    {
+      "start": "2026-04-28T08:00:00",
+      "end": "2026-04-28T12:00:00",
+      "uid": "511125-1372700886-0@timeedit.com",
+      "summary": "CS39A0130 Growth and internationalization of entrepreneurial businesses\\, LUT Tentti Lahti\\, M19_AUD2B Auditorio 2",
+      "location": "",
+      "description": "ID 511125"
     },
     {
       "start": "2026-05-01T00:00:00",
       "end": "2026-05-01T00:00:00",
       "uid": "527590-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Vappu",
       "location": "",
       "description": "05:00 - 19:00\\nID 527590"
     },
@@ -158,7 +4318,7 @@
       "start": "2026-05-14T00:00:00",
       "end": "2026-05-14T00:00:00",
       "uid": "527591-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Helatorstai",
       "location": "",
       "description": "05:00 - 19:00\\nID 527591"
     },
@@ -166,7 +4326,7 @@
       "start": "2026-06-20T00:00:00",
       "end": "2026-06-20T00:00:00",
       "uid": "527592-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Juhannuspäivä",
       "location": "",
       "description": "05:00 - 19:00\\nID 527592"
     },
@@ -174,7 +4334,7 @@
       "start": "2026-10-31T00:00:00",
       "end": "2026-10-31T00:00:00",
       "uid": "527593-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Pyhäinpäivä",
       "location": "",
       "description": "06:00 - 20:00\\nID 527593"
     },
@@ -182,7 +4342,7 @@
       "start": "2026-12-06T00:00:00",
       "end": "2026-12-06T00:00:00",
       "uid": "527594-1372700886-0@timeedit.com",
-      "summary": "",
+      "summary": "Itsenäisyyspäivä",
       "location": "",
       "description": "06:00 - 21:00\\nID 527594"
     }

@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import sys
 import random
 import asyncio
+import re
 
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.helpers import escape_markdown
@@ -42,21 +43,14 @@ CHANGE_ADDRESS = 103
 ASKING_DIRECTION = 104
 
 LECTURE_SOON_TEMPLATES = [
-    "Heads up! {course} in {minutes} mins at {room}. Stop procrastinating!",
-    "Yo! {course} starts in {minutes} mins. Get to {room}!",
-    "Your {course} is basically happening now ({minutes} mins). Room: {room}",
-    "Time flies! {course} in {minutes} minutes at {room}. Move it!",
-    "Wake up! {course} starts at {time} in {room} ({minutes} mins to go)",
-    "Incoming! {course} at {time}. That's {minutes} mins. Location: {room}",
+    "📌 Upcoming: {course}\n📍 {room} | ⏰ {time} ({minutes} min)",
+    "🔔 Class Alert: {course}\n⏰ {time} • Room: {room} • ETA: {minutes} min",
+    "📚 Next Class: {course}\n📍 {room}\n⏰ Starts at {time} ({minutes} mins)",
+    "⏱️ Class in {minutes} minutes\n📌 {course}\n🏢 {room} | 🕐 {time}",
+    "📖 Reminder: {course}\n🕐 {time} in {room}\nTime remaining: {minutes} min",
+    "🎓 Don't be late: {course}\n📍 {room} at {time}\n⏳ {minutes} minutes",
 ]
 
-LEAVING_NOW_TEMPLATES = [
-    "Yo, wake up! First class in {minutes} mins. Catch bus {bus_line} at {bus_depart}. {weather_action} btw - {weather_details}",
-    "Let's go! Bus {bus_line} leaves {bus_depart}. You got {minutes} mins. {weather_action}, {weather_details}",
-    "Rise and shine! Bus {bus_line} at {bus_depart} (in {minutes} mins). {weather_action} - {weather_details}",
-    "MOVE! First lecture in {minutes} mins. Grab the {bus_line} at {bus_depart}. {weather_action}, {weather_details}",
-    "Heads up! Bus {bus_line} at {bus_depart}. Your class is in {minutes} mins. {weather_action}, {weather_details}",
-]
 
 AFTER_LAST_TEMPLATE = "Your last lecture ends at {end_time}. Take bus {bus_line} heading {direction} at {dep_time}. {weather_action} - {weather_details}"
 
@@ -316,7 +310,7 @@ async def show_schedule(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("No lectures today!")
         return
     
-    message = "*Today's Schedule:*\n\n"
+    message = "*📅 Today's Schedule*\n\n"
     for event in todays:
         course = extract_course_name(event)
         room = extract_room_info(event)
@@ -324,13 +318,11 @@ async def show_schedule(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         # Escape special characters for Markdown
         course = escape_markdown(course, version=1)
-        if room:
-            room = escape_markdown(room, version=1)
+        room_display = escape_markdown(room, version=1) if room else "unknown"
 
-        message += f"{start} - {course}"
-        if room:
-            message += f"\n    {room}"
-        message += "\n\n"
+        message += f"⏰ *{start}*\n"
+        message += f"📚 {course}\n"
+        message += f"📍 {room_display}\n\n"
     
     await update.message.reply_text(message, parse_mode="Markdown")
 
@@ -693,7 +685,7 @@ async def check_and_send_notifications(app: Application):
     # Background task to check schedule and send notifications
     sent_notifications = set()
     while True:
-        await asyncio.sleep(300)  # Check every 5 minutes
+        await asyncio.sleep(60)
         
         # Get all user configs
         user_files = list(USER_DATA_DIR.glob("*_config.json"))
@@ -716,7 +708,49 @@ async def check_and_send_notifications(app: Application):
             api_key = get_api_key()
             now = datetime.now()
             
-            # Check each event for notifications
+            # Get today's lectures and find the first one
+            todays_events = [e for e in events if e.get("start") and e["start"].date() == now.date()]
+            first_lecture = min(todays_events, key=lambda e: e["start"]) if todays_events else None
+            
+            # Check for first lecture notification first (25-35 mins before)
+            if first_lecture and "start" in first_lecture:
+                event = first_lecture
+                event_start = event["start"]
+                minutes_until = (event_start - now).total_seconds() / 60
+                
+                if 25 <= minutes_until <= 35:
+                    course = extract_course_name(event)
+                    notif_key = f"{user_id}_{course}_{event_start}_early"
+                    
+                    if notif_key not in sent_notifications:
+                        destination_campus, _ = learn_and_determine_campus(event, course_locations)
+                        
+                        if destination_campus:
+                            dest = CAMPUSES[destination_campus]
+                            actual_start = event_start + timedelta(minutes=LECTURE_ACTUAL_START_OFFSET)
+                            arrival_time = actual_start - timedelta(minutes=ARRIVAL_BEFORE_ACTUAL_START)
+                            
+                            itineraries = plan_route(
+                                config["home_lat"], config["home_lon"],
+                                dest["lat"], dest["lon"],
+                                arrival_time,
+                                api_key,
+                                num_results=1
+                            )
+                            
+                            if itineraries:
+                                best = itineraries[0]
+                                departure_dt = datetime.fromisoformat(best.get("start", "").replace("Z", "+00:00"))
+                                if departure_dt.tzinfo:
+                                    departure_dt = departure_dt.replace(tzinfo=None)
+                                
+                                bus_legs = [leg for leg in best.get("legs", []) if leg.get("mode") == "BUS"]
+                                if bus_legs:
+                                    message = format_notification_message(best, minutes_until, config, departure_dt)
+                                    await app.bot.send_message(user_id, message)
+                                    sent_notifications.add(notif_key)
+            
+            # Then check other lectures for notifications (14-16 mins before)
             for event in events:
                 if "start" not in event:
                     continue
@@ -728,61 +762,27 @@ async def check_and_send_notifications(app: Application):
                 if minutes_until < 0 or minutes_until > 120:
                     continue
                 
-                course = extract_course_name(event)
-                room = extract_room_info(event)
+                # Skip the first lecture (already handled above)
+                if first_lecture and event["start"] == first_lecture["start"]:
+                    continue
                 
-                # FIRST LECTURE - 25-35 minutes before
-                if 25 <= minutes_until <= 35:
-                    notif_key = f"{user_id}_{course}_{event_start}_early"
-                    if notif_key in sent_notifications:
-                        continue
-
-                    destination_campus, _ = learn_and_determine_campus(event, course_locations)
-                    
-                    if destination_campus:
-                        dest = CAMPUSES[destination_campus]
-                        actual_start = event_start + timedelta(minutes=LECTURE_ACTUAL_START_OFFSET)
-                        arrival_time = actual_start - timedelta(minutes=ARRIVAL_BEFORE_ACTUAL_START)
-                        
-                        itineraries = plan_route(
-                            config["home_lat"], config["home_lon"],
-                            dest["lat"], dest["lon"],
-                            arrival_time,
-                            api_key,
-                            num_results=1
-                        )
-                        
-                        if itineraries:
-                            best = itineraries[0]
-                            depart_time = format_time(best.get("start", ""))
-                            departure_dt = datetime.fromisoformat(best.get("start", "").replace("Z", "+00:00"))
-                            if departure_dt.tzinfo:
-                                departure_dt = departure_dt.replace(tzinfo=None)
-                            weather_action, weather_details = get_weather_info(config["home_lat"], config["home_lon"], departure_dt)
-                            
-                            bus_legs = [leg for leg in best.get("legs", []) if leg.get("mode") == "BUS"]
-                            if bus_legs:
-                                route = bus_legs[0].get("trip", {}).get("routeShortName", "?")
-                                template = random.choice(LEAVING_NOW_TEMPLATES)
-                                message = format_notification_message(best, minutes_until, config, departure_dt)
-                                await app.bot.send_message(user_id, message)
-                                sent_notifications.add(notif_key)
-                
-                # OTHER LECTURES - 14-16 minutes before
-                elif 14 <= minutes_until <= 16:
+                # Only send template notifications for non-first lectures
+                if 14 <= minutes_until <= 16:
+                    course = extract_course_name(event)
+                    room = extract_room_info(event)
                     notif_key = f"{user_id}_{course}_{event_start}_soon"
-                    if notif_key in sent_notifications:
-                        continue
-
-                    template = random.choice(LECTURE_SOON_TEMPLATES)
-                    message = template.format(
-                        course=course,
-                        room=room or "Unknown",
-                        time=event_start.strftime("%H:%M"),
-                        minutes=int(minutes_until)
-                    )
-                    await app.bot.send_message(user_id, message)
-                    sent_notifications.add(notif_key)
+                    
+                    if notif_key not in sent_notifications:
+                        template = random.choice(LECTURE_SOON_TEMPLATES)
+                        room_display = room if room else "unknown"
+                        message = template.format(
+                            course=course,
+                            room=room_display,
+                            time=event_start.strftime("%H:%M"),
+                            minutes=int(minutes_until)
+                        )
+                        await app.bot.send_message(user_id, message)
+                        sent_notifications.add(notif_key)
 
 
 def main():
